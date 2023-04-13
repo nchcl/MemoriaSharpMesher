@@ -31,6 +31,7 @@
 #include <cctype>
 #include <time.h>
 #include <chrono>
+#include "Jens/Hexahedron.h"
 
 using std::atoi;
 using std::cout;
@@ -74,6 +75,9 @@ void endMsg(){
 
 int main(int argc,char** argv){
 	
+    //vector<int> p{0,1};
+    //Element * E = new Hexahedron(p);
+    
     if (argc<4) {
         endMsg();
         return 0;

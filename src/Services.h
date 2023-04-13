@@ -37,6 +37,7 @@
 #include <iostream>
 #include <fstream>
 #include <map>
+#include <memory>
 
 
 using Clobscode::Point3D;

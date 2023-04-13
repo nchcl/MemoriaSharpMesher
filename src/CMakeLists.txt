@@ -15,11 +15,18 @@ set(SOURCE_FILES Main MeshPoint Point3D TriMesh Octant OctreeEdge EdgeInfo
         RefinementRegion RefinementCubeRegion RefinementSurfaceRegion
         RefinementInputSurfaceRegion RefinementAllRegion
         FaceDiagonal SurfPrism SurfPyramid SurfHexahedron SurfTetrahedron 
-	SurfaceEdge GeometricTransform Face FaceContainer
+        SurfaceEdge GeometricTransform Face FaceContainer
         Visitors/Visitor Visitors/SplitVisitor Visitors/EdgeVisitor 
-	Visitors/IntersectionsVisitor Visitors/OneIrregularVisitor
+        Visitors/IntersectionsVisitor Visitors/OneIrregularVisitor
         Visitors/TransitionPatternVisitor Visitors/SurfaceTemplatesVisitor
-        Visitors/RemoveSubElementsVisitor)
+        Visitors/RemoveSubElementsVisitor
+        Jens/Element
+        Jens/Hexahedron
+        Jens/Prism  
+        Jens/Pyramid
+        Jens/Tetrahedron
+        Jens/Quality
+        )
 
 
 add_executable(mesher_roi ${SOURCE_FILES})

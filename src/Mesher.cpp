@@ -168,8 +168,14 @@ namespace Clobscode
         projectCloseToBoundaryNodes(input);
    		removeOnSurface();
 		
+        detectInsideNodes(input);
+        linkElementsToNodes();
+        shrinkToBoundary(input);
+        
+        //Quality (JENS)
+        
 		//apply the surface Patterns
-		applySurfacePatterns(input);
+		/*applySurfacePatterns(input);
         removeOnSurface();
 
         
@@ -187,7 +193,7 @@ namespace Clobscode
             for (unsigned int i=0; i<points.size(); i++) {
                 gt.applyInverse(points[i].getPoint());
             }
-        }
+        } */
 		
         //the almighty output mesh
         FEMesh mesh;
