@@ -200,6 +200,15 @@ namespace Clobscode
         
 		//save the data of the mesh in its final state
 		saveOutputMesh(mesh);
+
+        std::cout << mesh.getElements().size() << "\n";
+
+        for(auto i: mesh.getElements()) {
+            for( auto j: i) {
+                std::cout << j << ' ';
+            }
+            std::cout << "\n";
+        }
         
         //Write element-octant info the file
         Services::addOctElemntInfo(name,octants,removedoct,octmeshidx);

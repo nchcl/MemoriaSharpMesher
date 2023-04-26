@@ -1,0 +1,267 @@
+[
+{
+  "directory": "/home/nch/Downloads/Memoria/MesherSharp/build",
+  "command": "/usr/bin/g++    -std=c++11 -g -o CMakeFiles/mesher_roi.dir/Main.cpp.o -c /home/nch/Downloads/Memoria/MesherSharp/src/Main.cpp",
+  "file": "/home/nch/Downloads/Memoria/MesherSharp/src/Main.cpp"
+},
+{
+  "directory": "/home/nch/Downloads/Memoria/MesherSharp/build",
+  "command": "/usr/bin/g++    -std=c++11 -g -o CMakeFiles/mesher_roi.dir/MeshPoint.cpp.o -c /home/nch/Downloads/Memoria/MesherSharp/src/MeshPoint.cpp",
+  "file": "/home/nch/Downloads/Memoria/MesherSharp/src/MeshPoint.cpp"
+},
+{
+  "directory": "/home/nch/Downloads/Memoria/MesherSharp/build",
+  "command": "/usr/bin/g++    -std=c++11 -g -o CMakeFiles/mesher_roi.dir/Point3D.cpp.o -c /home/nch/Downloads/Memoria/MesherSharp/src/Point3D.cpp",
+  "file": "/home/nch/Downloads/Memoria/MesherSharp/src/Point3D.cpp"
+},
+{
+  "directory": "/home/nch/Downloads/Memoria/MesherSharp/build",
+  "command": "/usr/bin/g++    -std=c++11 -g -o CMakeFiles/mesher_roi.dir/TriMesh.cpp.o -c /home/nch/Downloads/Memoria/MesherSharp/src/TriMesh.cpp",
+  "file": "/home/nch/Downloads/Memoria/MesherSharp/src/TriMesh.cpp"
+},
+{
+  "directory": "/home/nch/Downloads/Memoria/MesherSharp/build",
+  "command": "/usr/bin/g++    -std=c++11 -g -o CMakeFiles/mesher_roi.dir/Octant.cpp.o -c /home/nch/Downloads/Memoria/MesherSharp/src/Octant.cpp",
+  "file": "/home/nch/Downloads/Memoria/MesherSharp/src/Octant.cpp"
+},
+{
+  "directory": "/home/nch/Downloads/Memoria/MesherSharp/build",
+  "command": "/usr/bin/g++    -std=c++11 -g -o CMakeFiles/mesher_roi.dir/OctreeEdge.cpp.o -c /home/nch/Downloads/Memoria/MesherSharp/src/OctreeEdge.cpp",
+  "file": "/home/nch/Downloads/Memoria/MesherSharp/src/OctreeEdge.cpp"
+},
+{
+  "directory": "/home/nch/Downloads/Memoria/MesherSharp/build",
+  "command": "/usr/bin/g++    -std=c++11 -g -o CMakeFiles/mesher_roi.dir/EdgeInfo.cpp.o -c /home/nch/Downloads/Memoria/MesherSharp/src/EdgeInfo.cpp",
+  "file": "/home/nch/Downloads/Memoria/MesherSharp/src/EdgeInfo.cpp"
+},
+{
+  "directory": "/home/nch/Downloads/Memoria/MesherSharp/build",
+  "command": "/usr/bin/g++    -std=c++11 -g -o CMakeFiles/mesher_roi.dir/HexRotation.cpp.o -c /home/nch/Downloads/Memoria/MesherSharp/src/HexRotation.cpp",
+  "file": "/home/nch/Downloads/Memoria/MesherSharp/src/HexRotation.cpp"
+},
+{
+  "directory": "/home/nch/Downloads/Memoria/MesherSharp/build",
+  "command": "/usr/bin/g++    -std=c++11 -g -o CMakeFiles/mesher_roi.dir/SurfTemplate1.cpp.o -c /home/nch/Downloads/Memoria/MesherSharp/src/SurfTemplate1.cpp",
+  "file": "/home/nch/Downloads/Memoria/MesherSharp/src/SurfTemplate1.cpp"
+},
+{
+  "directory": "/home/nch/Downloads/Memoria/MesherSharp/build",
+  "command": "/usr/bin/g++    -std=c++11 -g -o CMakeFiles/mesher_roi.dir/SurfTemplate2.cpp.o -c /home/nch/Downloads/Memoria/MesherSharp/src/SurfTemplate2.cpp",
+  "file": "/home/nch/Downloads/Memoria/MesherSharp/src/SurfTemplate2.cpp"
+},
+{
+  "directory": "/home/nch/Downloads/Memoria/MesherSharp/build",
+  "command": "/usr/bin/g++    -std=c++11 -g -o CMakeFiles/mesher_roi.dir/SurfTemplate3.cpp.o -c /home/nch/Downloads/Memoria/MesherSharp/src/SurfTemplate3.cpp",
+  "file": "/home/nch/Downloads/Memoria/MesherSharp/src/SurfTemplate3.cpp"
+},
+{
+  "directory": "/home/nch/Downloads/Memoria/MesherSharp/build",
+  "command": "/usr/bin/g++    -std=c++11 -g -o CMakeFiles/mesher_roi.dir/SurfTemplate4.cpp.o -c /home/nch/Downloads/Memoria/MesherSharp/src/SurfTemplate4.cpp",
+  "file": "/home/nch/Downloads/Memoria/MesherSharp/src/SurfTemplate4.cpp"
+},
+{
+  "directory": "/home/nch/Downloads/Memoria/MesherSharp/build",
+  "command": "/usr/bin/g++    -std=c++11 -g -o CMakeFiles/mesher_roi.dir/SurfTemplate5.cpp.o -c /home/nch/Downloads/Memoria/MesherSharp/src/SurfTemplate5.cpp",
+  "file": "/home/nch/Downloads/Memoria/MesherSharp/src/SurfTemplate5.cpp"
+},
+{
+  "directory": "/home/nch/Downloads/Memoria/MesherSharp/build",
+  "command": "/usr/bin/g++    -std=c++11 -g -o CMakeFiles/mesher_roi.dir/SurfTemplate6.cpp.o -c /home/nch/Downloads/Memoria/MesherSharp/src/SurfTemplate6.cpp",
+  "file": "/home/nch/Downloads/Memoria/MesherSharp/src/SurfTemplate6.cpp"
+},
+{
+  "directory": "/home/nch/Downloads/Memoria/MesherSharp/build",
+  "command": "/usr/bin/g++    -std=c++11 -g -o CMakeFiles/mesher_roi.dir/SurfTemplate7.cpp.o -c /home/nch/Downloads/Memoria/MesherSharp/src/SurfTemplate7.cpp",
+  "file": "/home/nch/Downloads/Memoria/MesherSharp/src/SurfTemplate7.cpp"
+},
+{
+  "directory": "/home/nch/Downloads/Memoria/MesherSharp/build",
+  "command": "/usr/bin/g++    -std=c++11 -g -o CMakeFiles/mesher_roi.dir/Mesher.cpp.o -c /home/nch/Downloads/Memoria/MesherSharp/src/Mesher.cpp",
+  "file": "/home/nch/Downloads/Memoria/MesherSharp/src/Mesher.cpp"
+},
+{
+  "directory": "/home/nch/Downloads/Memoria/MesherSharp/build",
+  "command": "/usr/bin/g++    -std=c++11 -g -o CMakeFiles/mesher_roi.dir/GridMesher.cpp.o -c /home/nch/Downloads/Memoria/MesherSharp/src/GridMesher.cpp",
+  "file": "/home/nch/Downloads/Memoria/MesherSharp/src/GridMesher.cpp"
+},
+{
+  "directory": "/home/nch/Downloads/Memoria/MesherSharp/build",
+  "command": "/usr/bin/g++    -std=c++11 -g -o CMakeFiles/mesher_roi.dir/TransitionPoint.cpp.o -c /home/nch/Downloads/Memoria/MesherSharp/src/TransitionPoint.cpp",
+  "file": "/home/nch/Downloads/Memoria/MesherSharp/src/TransitionPoint.cpp"
+},
+{
+  "directory": "/home/nch/Downloads/Memoria/MesherSharp/build",
+  "command": "/usr/bin/g++    -std=c++11 -g -o CMakeFiles/mesher_roi.dir/PatternFactory.cpp.o -c /home/nch/Downloads/Memoria/MesherSharp/src/PatternFactory.cpp",
+  "file": "/home/nch/Downloads/Memoria/MesherSharp/src/PatternFactory.cpp"
+},
+{
+  "directory": "/home/nch/Downloads/Memoria/MesherSharp/build",
+  "command": "/usr/bin/g++    -std=c++11 -g -o CMakeFiles/mesher_roi.dir/TransitionTemplate.cpp.o -c /home/nch/Downloads/Memoria/MesherSharp/src/TransitionTemplate.cpp",
+  "file": "/home/nch/Downloads/Memoria/MesherSharp/src/TransitionTemplate.cpp"
+},
+{
+  "directory": "/home/nch/Downloads/Memoria/MesherSharp/build",
+  "command": "/usr/bin/g++    -std=c++11 -g -o CMakeFiles/mesher_roi.dir/TransitionCube.cpp.o -c /home/nch/Downloads/Memoria/MesherSharp/src/TransitionCube.cpp",
+  "file": "/home/nch/Downloads/Memoria/MesherSharp/src/TransitionCube.cpp"
+},
+{
+  "directory": "/home/nch/Downloads/Memoria/MesherSharp/build",
+  "command": "/usr/bin/g++    -std=c++11 -g -o CMakeFiles/mesher_roi.dir/SurfPair.cpp.o -c /home/nch/Downloads/Memoria/MesherSharp/src/SurfPair.cpp",
+  "file": "/home/nch/Downloads/Memoria/MesherSharp/src/SurfPair.cpp"
+},
+{
+  "directory": "/home/nch/Downloads/Memoria/MesherSharp/build",
+  "command": "/usr/bin/g++    -std=c++11 -g -o CMakeFiles/mesher_roi.dir/SurfEdge.cpp.o -c /home/nch/Downloads/Memoria/MesherSharp/src/SurfEdge.cpp",
+  "file": "/home/nch/Downloads/Memoria/MesherSharp/src/SurfEdge.cpp"
+},
+{
+  "directory": "/home/nch/Downloads/Memoria/MesherSharp/build",
+  "command": "/usr/bin/g++    -std=c++11 -g -o CMakeFiles/mesher_roi.dir/SurfEdgeContainer.cpp.o -c /home/nch/Downloads/Memoria/MesherSharp/src/SurfEdgeContainer.cpp",
+  "file": "/home/nch/Downloads/Memoria/MesherSharp/src/SurfEdgeContainer.cpp"
+},
+{
+  "directory": "/home/nch/Downloads/Memoria/MesherSharp/build",
+  "command": "/usr/bin/g++    -std=c++11 -g -o CMakeFiles/mesher_roi.dir/SurfTriangle.cpp.o -c /home/nch/Downloads/Memoria/MesherSharp/src/SurfTriangle.cpp",
+  "file": "/home/nch/Downloads/Memoria/MesherSharp/src/SurfTriangle.cpp"
+},
+{
+  "directory": "/home/nch/Downloads/Memoria/MesherSharp/build",
+  "command": "/usr/bin/g++    -std=c++11 -g -o CMakeFiles/mesher_roi.dir/RefinementRegion.cpp.o -c /home/nch/Downloads/Memoria/MesherSharp/src/RefinementRegion.cpp",
+  "file": "/home/nch/Downloads/Memoria/MesherSharp/src/RefinementRegion.cpp"
+},
+{
+  "directory": "/home/nch/Downloads/Memoria/MesherSharp/build",
+  "command": "/usr/bin/g++    -std=c++11 -g -o CMakeFiles/mesher_roi.dir/RefinementCubeRegion.cpp.o -c /home/nch/Downloads/Memoria/MesherSharp/src/RefinementCubeRegion.cpp",
+  "file": "/home/nch/Downloads/Memoria/MesherSharp/src/RefinementCubeRegion.cpp"
+},
+{
+  "directory": "/home/nch/Downloads/Memoria/MesherSharp/build",
+  "command": "/usr/bin/g++    -std=c++11 -g -o CMakeFiles/mesher_roi.dir/RefinementSurfaceRegion.cpp.o -c /home/nch/Downloads/Memoria/MesherSharp/src/RefinementSurfaceRegion.cpp",
+  "file": "/home/nch/Downloads/Memoria/MesherSharp/src/RefinementSurfaceRegion.cpp"
+},
+{
+  "directory": "/home/nch/Downloads/Memoria/MesherSharp/build",
+  "command": "/usr/bin/g++    -std=c++11 -g -o CMakeFiles/mesher_roi.dir/RefinementInputSurfaceRegion.cpp.o -c /home/nch/Downloads/Memoria/MesherSharp/src/RefinementInputSurfaceRegion.cpp",
+  "file": "/home/nch/Downloads/Memoria/MesherSharp/src/RefinementInputSurfaceRegion.cpp"
+},
+{
+  "directory": "/home/nch/Downloads/Memoria/MesherSharp/build",
+  "command": "/usr/bin/g++    -std=c++11 -g -o CMakeFiles/mesher_roi.dir/RefinementAllRegion.cpp.o -c /home/nch/Downloads/Memoria/MesherSharp/src/RefinementAllRegion.cpp",
+  "file": "/home/nch/Downloads/Memoria/MesherSharp/src/RefinementAllRegion.cpp"
+},
+{
+  "directory": "/home/nch/Downloads/Memoria/MesherSharp/build",
+  "command": "/usr/bin/g++    -std=c++11 -g -o CMakeFiles/mesher_roi.dir/FaceDiagonal.cpp.o -c /home/nch/Downloads/Memoria/MesherSharp/src/FaceDiagonal.cpp",
+  "file": "/home/nch/Downloads/Memoria/MesherSharp/src/FaceDiagonal.cpp"
+},
+{
+  "directory": "/home/nch/Downloads/Memoria/MesherSharp/build",
+  "command": "/usr/bin/g++    -std=c++11 -g -o CMakeFiles/mesher_roi.dir/SurfPrism.cpp.o -c /home/nch/Downloads/Memoria/MesherSharp/src/SurfPrism.cpp",
+  "file": "/home/nch/Downloads/Memoria/MesherSharp/src/SurfPrism.cpp"
+},
+{
+  "directory": "/home/nch/Downloads/Memoria/MesherSharp/build",
+  "command": "/usr/bin/g++    -std=c++11 -g -o CMakeFiles/mesher_roi.dir/SurfPyramid.cpp.o -c /home/nch/Downloads/Memoria/MesherSharp/src/SurfPyramid.cpp",
+  "file": "/home/nch/Downloads/Memoria/MesherSharp/src/SurfPyramid.cpp"
+},
+{
+  "directory": "/home/nch/Downloads/Memoria/MesherSharp/build",
+  "command": "/usr/bin/g++    -std=c++11 -g -o CMakeFiles/mesher_roi.dir/SurfHexahedron.cpp.o -c /home/nch/Downloads/Memoria/MesherSharp/src/SurfHexahedron.cpp",
+  "file": "/home/nch/Downloads/Memoria/MesherSharp/src/SurfHexahedron.cpp"
+},
+{
+  "directory": "/home/nch/Downloads/Memoria/MesherSharp/build",
+  "command": "/usr/bin/g++    -std=c++11 -g -o CMakeFiles/mesher_roi.dir/SurfTetrahedron.cpp.o -c /home/nch/Downloads/Memoria/MesherSharp/src/SurfTetrahedron.cpp",
+  "file": "/home/nch/Downloads/Memoria/MesherSharp/src/SurfTetrahedron.cpp"
+},
+{
+  "directory": "/home/nch/Downloads/Memoria/MesherSharp/build",
+  "command": "/usr/bin/g++    -std=c++11 -g -o CMakeFiles/mesher_roi.dir/SurfaceEdge.cpp.o -c /home/nch/Downloads/Memoria/MesherSharp/src/SurfaceEdge.cpp",
+  "file": "/home/nch/Downloads/Memoria/MesherSharp/src/SurfaceEdge.cpp"
+},
+{
+  "directory": "/home/nch/Downloads/Memoria/MesherSharp/build",
+  "command": "/usr/bin/g++    -std=c++11 -g -o CMakeFiles/mesher_roi.dir/GeometricTransform.cpp.o -c /home/nch/Downloads/Memoria/MesherSharp/src/GeometricTransform.cpp",
+  "file": "/home/nch/Downloads/Memoria/MesherSharp/src/GeometricTransform.cpp"
+},
+{
+  "directory": "/home/nch/Downloads/Memoria/MesherSharp/build",
+  "command": "/usr/bin/g++    -std=c++11 -g -o CMakeFiles/mesher_roi.dir/Face.cpp.o -c /home/nch/Downloads/Memoria/MesherSharp/src/Face.cpp",
+  "file": "/home/nch/Downloads/Memoria/MesherSharp/src/Face.cpp"
+},
+{
+  "directory": "/home/nch/Downloads/Memoria/MesherSharp/build",
+  "command": "/usr/bin/g++    -std=c++11 -g -o CMakeFiles/mesher_roi.dir/FaceContainer.cpp.o -c /home/nch/Downloads/Memoria/MesherSharp/src/FaceContainer.cpp",
+  "file": "/home/nch/Downloads/Memoria/MesherSharp/src/FaceContainer.cpp"
+},
+{
+  "directory": "/home/nch/Downloads/Memoria/MesherSharp/build",
+  "command": "/usr/bin/g++    -std=c++11 -g -o CMakeFiles/mesher_roi.dir/Visitors/Visitor.cpp.o -c /home/nch/Downloads/Memoria/MesherSharp/src/Visitors/Visitor.cpp",
+  "file": "/home/nch/Downloads/Memoria/MesherSharp/src/Visitors/Visitor.cpp"
+},
+{
+  "directory": "/home/nch/Downloads/Memoria/MesherSharp/build",
+  "command": "/usr/bin/g++    -std=c++11 -g -o CMakeFiles/mesher_roi.dir/Visitors/SplitVisitor.cpp.o -c /home/nch/Downloads/Memoria/MesherSharp/src/Visitors/SplitVisitor.cpp",
+  "file": "/home/nch/Downloads/Memoria/MesherSharp/src/Visitors/SplitVisitor.cpp"
+},
+{
+  "directory": "/home/nch/Downloads/Memoria/MesherSharp/build",
+  "command": "/usr/bin/g++    -std=c++11 -g -o CMakeFiles/mesher_roi.dir/Visitors/EdgeVisitor.cpp.o -c /home/nch/Downloads/Memoria/MesherSharp/src/Visitors/EdgeVisitor.cpp",
+  "file": "/home/nch/Downloads/Memoria/MesherSharp/src/Visitors/EdgeVisitor.cpp"
+},
+{
+  "directory": "/home/nch/Downloads/Memoria/MesherSharp/build",
+  "command": "/usr/bin/g++    -std=c++11 -g -o CMakeFiles/mesher_roi.dir/Visitors/IntersectionsVisitor.cpp.o -c /home/nch/Downloads/Memoria/MesherSharp/src/Visitors/IntersectionsVisitor.cpp",
+  "file": "/home/nch/Downloads/Memoria/MesherSharp/src/Visitors/IntersectionsVisitor.cpp"
+},
+{
+  "directory": "/home/nch/Downloads/Memoria/MesherSharp/build",
+  "command": "/usr/bin/g++    -std=c++11 -g -o CMakeFiles/mesher_roi.dir/Visitors/OneIrregularVisitor.cpp.o -c /home/nch/Downloads/Memoria/MesherSharp/src/Visitors/OneIrregularVisitor.cpp",
+  "file": "/home/nch/Downloads/Memoria/MesherSharp/src/Visitors/OneIrregularVisitor.cpp"
+},
+{
+  "directory": "/home/nch/Downloads/Memoria/MesherSharp/build",
+  "command": "/usr/bin/g++    -std=c++11 -g -o CMakeFiles/mesher_roi.dir/Visitors/TransitionPatternVisitor.cpp.o -c /home/nch/Downloads/Memoria/MesherSharp/src/Visitors/TransitionPatternVisitor.cpp",
+  "file": "/home/nch/Downloads/Memoria/MesherSharp/src/Visitors/TransitionPatternVisitor.cpp"
+},
+{
+  "directory": "/home/nch/Downloads/Memoria/MesherSharp/build",
+  "command": "/usr/bin/g++    -std=c++11 -g -o CMakeFiles/mesher_roi.dir/Visitors/SurfaceTemplatesVisitor.cpp.o -c /home/nch/Downloads/Memoria/MesherSharp/src/Visitors/SurfaceTemplatesVisitor.cpp",
+  "file": "/home/nch/Downloads/Memoria/MesherSharp/src/Visitors/SurfaceTemplatesVisitor.cpp"
+},
+{
+  "directory": "/home/nch/Downloads/Memoria/MesherSharp/build",
+  "command": "/usr/bin/g++    -std=c++11 -g -o CMakeFiles/mesher_roi.dir/Visitors/RemoveSubElementsVisitor.cpp.o -c /home/nch/Downloads/Memoria/MesherSharp/src/Visitors/RemoveSubElementsVisitor.cpp",
+  "file": "/home/nch/Downloads/Memoria/MesherSharp/src/Visitors/RemoveSubElementsVisitor.cpp"
+},
+{
+  "directory": "/home/nch/Downloads/Memoria/MesherSharp/build",
+  "command": "/usr/bin/g++    -std=c++11 -g -o CMakeFiles/mesher_roi.dir/Jens/Element.cpp.o -c /home/nch/Downloads/Memoria/MesherSharp/src/Jens/Element.cpp",
+  "file": "/home/nch/Downloads/Memoria/MesherSharp/src/Jens/Element.cpp"
+},
+{
+  "directory": "/home/nch/Downloads/Memoria/MesherSharp/build",
+  "command": "/usr/bin/g++    -std=c++11 -g -o CMakeFiles/mesher_roi.dir/Jens/Hexahedron.cpp.o -c /home/nch/Downloads/Memoria/MesherSharp/src/Jens/Hexahedron.cpp",
+  "file": "/home/nch/Downloads/Memoria/MesherSharp/src/Jens/Hexahedron.cpp"
+},
+{
+  "directory": "/home/nch/Downloads/Memoria/MesherSharp/build",
+  "command": "/usr/bin/g++    -std=c++11 -g -o CMakeFiles/mesher_roi.dir/Jens/Prism.cpp.o -c /home/nch/Downloads/Memoria/MesherSharp/src/Jens/Prism.cpp",
+  "file": "/home/nch/Downloads/Memoria/MesherSharp/src/Jens/Prism.cpp"
+},
+{
+  "directory": "/home/nch/Downloads/Memoria/MesherSharp/build",
+  "command": "/usr/bin/g++    -std=c++11 -g -o CMakeFiles/mesher_roi.dir/Jens/Pyramid.cpp.o -c /home/nch/Downloads/Memoria/MesherSharp/src/Jens/Pyramid.cpp",
+  "file": "/home/nch/Downloads/Memoria/MesherSharp/src/Jens/Pyramid.cpp"
+},
+{
+  "directory": "/home/nch/Downloads/Memoria/MesherSharp/build",
+  "command": "/usr/bin/g++    -std=c++11 -g -o CMakeFiles/mesher_roi.dir/Jens/Tetrahedron.cpp.o -c /home/nch/Downloads/Memoria/MesherSharp/src/Jens/Tetrahedron.cpp",
+  "file": "/home/nch/Downloads/Memoria/MesherSharp/src/Jens/Tetrahedron.cpp"
+},
+{
+  "directory": "/home/nch/Downloads/Memoria/MesherSharp/build",
+  "command": "/usr/bin/g++    -std=c++11 -g -o CMakeFiles/mesher_roi.dir/Jens/Quality.cpp.o -c /home/nch/Downloads/Memoria/MesherSharp/src/Jens/Quality.cpp",
+  "file": "/home/nch/Downloads/Memoria/MesherSharp/src/Jens/Quality.cpp"
+}
+]

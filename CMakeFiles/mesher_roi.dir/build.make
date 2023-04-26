@@ -62,10 +62,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nch/Downloads/Memoria/MixedOcTree/src
+CMAKE_SOURCE_DIR = /home/nch/Downloads/Memoria/MesherSharp/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nch/Downloads/Memoria/MixedOcTree
+CMAKE_BINARY_DIR = /home/nch/Downloads/Memoria/MesherSharp
 
 # Include any dependencies generated for this target.
 include CMakeFiles/mesher_roi.dir/depend.make
@@ -78,692 +78,692 @@ include CMakeFiles/mesher_roi.dir/flags.make
 
 CMakeFiles/mesher_roi.dir/Main.cpp.o: CMakeFiles/mesher_roi.dir/flags.make
 CMakeFiles/mesher_roi.dir/Main.cpp.o: src/Main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nch/Downloads/Memoria/MixedOcTree/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/mesher_roi.dir/Main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesher_roi.dir/Main.cpp.o -c /home/nch/Downloads/Memoria/MixedOcTree/src/Main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nch/Downloads/Memoria/MesherSharp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/mesher_roi.dir/Main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesher_roi.dir/Main.cpp.o -c /home/nch/Downloads/Memoria/MesherSharp/src/Main.cpp
 
 CMakeFiles/mesher_roi.dir/Main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesher_roi.dir/Main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nch/Downloads/Memoria/MixedOcTree/src/Main.cpp > CMakeFiles/mesher_roi.dir/Main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nch/Downloads/Memoria/MesherSharp/src/Main.cpp > CMakeFiles/mesher_roi.dir/Main.cpp.i
 
 CMakeFiles/mesher_roi.dir/Main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesher_roi.dir/Main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nch/Downloads/Memoria/MixedOcTree/src/Main.cpp -o CMakeFiles/mesher_roi.dir/Main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nch/Downloads/Memoria/MesherSharp/src/Main.cpp -o CMakeFiles/mesher_roi.dir/Main.cpp.s
 
 CMakeFiles/mesher_roi.dir/MeshPoint.cpp.o: CMakeFiles/mesher_roi.dir/flags.make
 CMakeFiles/mesher_roi.dir/MeshPoint.cpp.o: src/MeshPoint.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nch/Downloads/Memoria/MixedOcTree/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/mesher_roi.dir/MeshPoint.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesher_roi.dir/MeshPoint.cpp.o -c /home/nch/Downloads/Memoria/MixedOcTree/src/MeshPoint.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nch/Downloads/Memoria/MesherSharp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/mesher_roi.dir/MeshPoint.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesher_roi.dir/MeshPoint.cpp.o -c /home/nch/Downloads/Memoria/MesherSharp/src/MeshPoint.cpp
 
 CMakeFiles/mesher_roi.dir/MeshPoint.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesher_roi.dir/MeshPoint.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nch/Downloads/Memoria/MixedOcTree/src/MeshPoint.cpp > CMakeFiles/mesher_roi.dir/MeshPoint.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nch/Downloads/Memoria/MesherSharp/src/MeshPoint.cpp > CMakeFiles/mesher_roi.dir/MeshPoint.cpp.i
 
 CMakeFiles/mesher_roi.dir/MeshPoint.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesher_roi.dir/MeshPoint.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nch/Downloads/Memoria/MixedOcTree/src/MeshPoint.cpp -o CMakeFiles/mesher_roi.dir/MeshPoint.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nch/Downloads/Memoria/MesherSharp/src/MeshPoint.cpp -o CMakeFiles/mesher_roi.dir/MeshPoint.cpp.s
 
 CMakeFiles/mesher_roi.dir/Point3D.cpp.o: CMakeFiles/mesher_roi.dir/flags.make
 CMakeFiles/mesher_roi.dir/Point3D.cpp.o: src/Point3D.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nch/Downloads/Memoria/MixedOcTree/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/mesher_roi.dir/Point3D.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesher_roi.dir/Point3D.cpp.o -c /home/nch/Downloads/Memoria/MixedOcTree/src/Point3D.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nch/Downloads/Memoria/MesherSharp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/mesher_roi.dir/Point3D.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesher_roi.dir/Point3D.cpp.o -c /home/nch/Downloads/Memoria/MesherSharp/src/Point3D.cpp
 
 CMakeFiles/mesher_roi.dir/Point3D.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesher_roi.dir/Point3D.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nch/Downloads/Memoria/MixedOcTree/src/Point3D.cpp > CMakeFiles/mesher_roi.dir/Point3D.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nch/Downloads/Memoria/MesherSharp/src/Point3D.cpp > CMakeFiles/mesher_roi.dir/Point3D.cpp.i
 
 CMakeFiles/mesher_roi.dir/Point3D.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesher_roi.dir/Point3D.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nch/Downloads/Memoria/MixedOcTree/src/Point3D.cpp -o CMakeFiles/mesher_roi.dir/Point3D.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nch/Downloads/Memoria/MesherSharp/src/Point3D.cpp -o CMakeFiles/mesher_roi.dir/Point3D.cpp.s
 
 CMakeFiles/mesher_roi.dir/TriMesh.cpp.o: CMakeFiles/mesher_roi.dir/flags.make
 CMakeFiles/mesher_roi.dir/TriMesh.cpp.o: src/TriMesh.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nch/Downloads/Memoria/MixedOcTree/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/mesher_roi.dir/TriMesh.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesher_roi.dir/TriMesh.cpp.o -c /home/nch/Downloads/Memoria/MixedOcTree/src/TriMesh.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nch/Downloads/Memoria/MesherSharp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/mesher_roi.dir/TriMesh.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesher_roi.dir/TriMesh.cpp.o -c /home/nch/Downloads/Memoria/MesherSharp/src/TriMesh.cpp
 
 CMakeFiles/mesher_roi.dir/TriMesh.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesher_roi.dir/TriMesh.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nch/Downloads/Memoria/MixedOcTree/src/TriMesh.cpp > CMakeFiles/mesher_roi.dir/TriMesh.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nch/Downloads/Memoria/MesherSharp/src/TriMesh.cpp > CMakeFiles/mesher_roi.dir/TriMesh.cpp.i
 
 CMakeFiles/mesher_roi.dir/TriMesh.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesher_roi.dir/TriMesh.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nch/Downloads/Memoria/MixedOcTree/src/TriMesh.cpp -o CMakeFiles/mesher_roi.dir/TriMesh.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nch/Downloads/Memoria/MesherSharp/src/TriMesh.cpp -o CMakeFiles/mesher_roi.dir/TriMesh.cpp.s
 
 CMakeFiles/mesher_roi.dir/Octant.cpp.o: CMakeFiles/mesher_roi.dir/flags.make
 CMakeFiles/mesher_roi.dir/Octant.cpp.o: src/Octant.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nch/Downloads/Memoria/MixedOcTree/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/mesher_roi.dir/Octant.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesher_roi.dir/Octant.cpp.o -c /home/nch/Downloads/Memoria/MixedOcTree/src/Octant.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nch/Downloads/Memoria/MesherSharp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/mesher_roi.dir/Octant.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesher_roi.dir/Octant.cpp.o -c /home/nch/Downloads/Memoria/MesherSharp/src/Octant.cpp
 
 CMakeFiles/mesher_roi.dir/Octant.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesher_roi.dir/Octant.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nch/Downloads/Memoria/MixedOcTree/src/Octant.cpp > CMakeFiles/mesher_roi.dir/Octant.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nch/Downloads/Memoria/MesherSharp/src/Octant.cpp > CMakeFiles/mesher_roi.dir/Octant.cpp.i
 
 CMakeFiles/mesher_roi.dir/Octant.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesher_roi.dir/Octant.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nch/Downloads/Memoria/MixedOcTree/src/Octant.cpp -o CMakeFiles/mesher_roi.dir/Octant.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nch/Downloads/Memoria/MesherSharp/src/Octant.cpp -o CMakeFiles/mesher_roi.dir/Octant.cpp.s
 
 CMakeFiles/mesher_roi.dir/OctreeEdge.cpp.o: CMakeFiles/mesher_roi.dir/flags.make
 CMakeFiles/mesher_roi.dir/OctreeEdge.cpp.o: src/OctreeEdge.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nch/Downloads/Memoria/MixedOcTree/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/mesher_roi.dir/OctreeEdge.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesher_roi.dir/OctreeEdge.cpp.o -c /home/nch/Downloads/Memoria/MixedOcTree/src/OctreeEdge.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nch/Downloads/Memoria/MesherSharp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/mesher_roi.dir/OctreeEdge.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesher_roi.dir/OctreeEdge.cpp.o -c /home/nch/Downloads/Memoria/MesherSharp/src/OctreeEdge.cpp
 
 CMakeFiles/mesher_roi.dir/OctreeEdge.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesher_roi.dir/OctreeEdge.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nch/Downloads/Memoria/MixedOcTree/src/OctreeEdge.cpp > CMakeFiles/mesher_roi.dir/OctreeEdge.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nch/Downloads/Memoria/MesherSharp/src/OctreeEdge.cpp > CMakeFiles/mesher_roi.dir/OctreeEdge.cpp.i
 
 CMakeFiles/mesher_roi.dir/OctreeEdge.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesher_roi.dir/OctreeEdge.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nch/Downloads/Memoria/MixedOcTree/src/OctreeEdge.cpp -o CMakeFiles/mesher_roi.dir/OctreeEdge.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nch/Downloads/Memoria/MesherSharp/src/OctreeEdge.cpp -o CMakeFiles/mesher_roi.dir/OctreeEdge.cpp.s
 
 CMakeFiles/mesher_roi.dir/EdgeInfo.cpp.o: CMakeFiles/mesher_roi.dir/flags.make
 CMakeFiles/mesher_roi.dir/EdgeInfo.cpp.o: src/EdgeInfo.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nch/Downloads/Memoria/MixedOcTree/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/mesher_roi.dir/EdgeInfo.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesher_roi.dir/EdgeInfo.cpp.o -c /home/nch/Downloads/Memoria/MixedOcTree/src/EdgeInfo.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nch/Downloads/Memoria/MesherSharp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/mesher_roi.dir/EdgeInfo.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesher_roi.dir/EdgeInfo.cpp.o -c /home/nch/Downloads/Memoria/MesherSharp/src/EdgeInfo.cpp
 
 CMakeFiles/mesher_roi.dir/EdgeInfo.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesher_roi.dir/EdgeInfo.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nch/Downloads/Memoria/MixedOcTree/src/EdgeInfo.cpp > CMakeFiles/mesher_roi.dir/EdgeInfo.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nch/Downloads/Memoria/MesherSharp/src/EdgeInfo.cpp > CMakeFiles/mesher_roi.dir/EdgeInfo.cpp.i
 
 CMakeFiles/mesher_roi.dir/EdgeInfo.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesher_roi.dir/EdgeInfo.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nch/Downloads/Memoria/MixedOcTree/src/EdgeInfo.cpp -o CMakeFiles/mesher_roi.dir/EdgeInfo.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nch/Downloads/Memoria/MesherSharp/src/EdgeInfo.cpp -o CMakeFiles/mesher_roi.dir/EdgeInfo.cpp.s
 
 CMakeFiles/mesher_roi.dir/HexRotation.cpp.o: CMakeFiles/mesher_roi.dir/flags.make
 CMakeFiles/mesher_roi.dir/HexRotation.cpp.o: src/HexRotation.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nch/Downloads/Memoria/MixedOcTree/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/mesher_roi.dir/HexRotation.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesher_roi.dir/HexRotation.cpp.o -c /home/nch/Downloads/Memoria/MixedOcTree/src/HexRotation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nch/Downloads/Memoria/MesherSharp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/mesher_roi.dir/HexRotation.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesher_roi.dir/HexRotation.cpp.o -c /home/nch/Downloads/Memoria/MesherSharp/src/HexRotation.cpp
 
 CMakeFiles/mesher_roi.dir/HexRotation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesher_roi.dir/HexRotation.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nch/Downloads/Memoria/MixedOcTree/src/HexRotation.cpp > CMakeFiles/mesher_roi.dir/HexRotation.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nch/Downloads/Memoria/MesherSharp/src/HexRotation.cpp > CMakeFiles/mesher_roi.dir/HexRotation.cpp.i
 
 CMakeFiles/mesher_roi.dir/HexRotation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesher_roi.dir/HexRotation.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nch/Downloads/Memoria/MixedOcTree/src/HexRotation.cpp -o CMakeFiles/mesher_roi.dir/HexRotation.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nch/Downloads/Memoria/MesherSharp/src/HexRotation.cpp -o CMakeFiles/mesher_roi.dir/HexRotation.cpp.s
 
 CMakeFiles/mesher_roi.dir/SurfTemplate1.cpp.o: CMakeFiles/mesher_roi.dir/flags.make
 CMakeFiles/mesher_roi.dir/SurfTemplate1.cpp.o: src/SurfTemplate1.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nch/Downloads/Memoria/MixedOcTree/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/mesher_roi.dir/SurfTemplate1.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesher_roi.dir/SurfTemplate1.cpp.o -c /home/nch/Downloads/Memoria/MixedOcTree/src/SurfTemplate1.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nch/Downloads/Memoria/MesherSharp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/mesher_roi.dir/SurfTemplate1.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesher_roi.dir/SurfTemplate1.cpp.o -c /home/nch/Downloads/Memoria/MesherSharp/src/SurfTemplate1.cpp
 
 CMakeFiles/mesher_roi.dir/SurfTemplate1.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesher_roi.dir/SurfTemplate1.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nch/Downloads/Memoria/MixedOcTree/src/SurfTemplate1.cpp > CMakeFiles/mesher_roi.dir/SurfTemplate1.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nch/Downloads/Memoria/MesherSharp/src/SurfTemplate1.cpp > CMakeFiles/mesher_roi.dir/SurfTemplate1.cpp.i
 
 CMakeFiles/mesher_roi.dir/SurfTemplate1.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesher_roi.dir/SurfTemplate1.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nch/Downloads/Memoria/MixedOcTree/src/SurfTemplate1.cpp -o CMakeFiles/mesher_roi.dir/SurfTemplate1.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nch/Downloads/Memoria/MesherSharp/src/SurfTemplate1.cpp -o CMakeFiles/mesher_roi.dir/SurfTemplate1.cpp.s
 
 CMakeFiles/mesher_roi.dir/SurfTemplate2.cpp.o: CMakeFiles/mesher_roi.dir/flags.make
 CMakeFiles/mesher_roi.dir/SurfTemplate2.cpp.o: src/SurfTemplate2.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nch/Downloads/Memoria/MixedOcTree/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/mesher_roi.dir/SurfTemplate2.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesher_roi.dir/SurfTemplate2.cpp.o -c /home/nch/Downloads/Memoria/MixedOcTree/src/SurfTemplate2.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nch/Downloads/Memoria/MesherSharp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/mesher_roi.dir/SurfTemplate2.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesher_roi.dir/SurfTemplate2.cpp.o -c /home/nch/Downloads/Memoria/MesherSharp/src/SurfTemplate2.cpp
 
 CMakeFiles/mesher_roi.dir/SurfTemplate2.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesher_roi.dir/SurfTemplate2.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nch/Downloads/Memoria/MixedOcTree/src/SurfTemplate2.cpp > CMakeFiles/mesher_roi.dir/SurfTemplate2.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nch/Downloads/Memoria/MesherSharp/src/SurfTemplate2.cpp > CMakeFiles/mesher_roi.dir/SurfTemplate2.cpp.i
 
 CMakeFiles/mesher_roi.dir/SurfTemplate2.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesher_roi.dir/SurfTemplate2.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nch/Downloads/Memoria/MixedOcTree/src/SurfTemplate2.cpp -o CMakeFiles/mesher_roi.dir/SurfTemplate2.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nch/Downloads/Memoria/MesherSharp/src/SurfTemplate2.cpp -o CMakeFiles/mesher_roi.dir/SurfTemplate2.cpp.s
 
 CMakeFiles/mesher_roi.dir/SurfTemplate3.cpp.o: CMakeFiles/mesher_roi.dir/flags.make
 CMakeFiles/mesher_roi.dir/SurfTemplate3.cpp.o: src/SurfTemplate3.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nch/Downloads/Memoria/MixedOcTree/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/mesher_roi.dir/SurfTemplate3.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesher_roi.dir/SurfTemplate3.cpp.o -c /home/nch/Downloads/Memoria/MixedOcTree/src/SurfTemplate3.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nch/Downloads/Memoria/MesherSharp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/mesher_roi.dir/SurfTemplate3.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesher_roi.dir/SurfTemplate3.cpp.o -c /home/nch/Downloads/Memoria/MesherSharp/src/SurfTemplate3.cpp
 
 CMakeFiles/mesher_roi.dir/SurfTemplate3.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesher_roi.dir/SurfTemplate3.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nch/Downloads/Memoria/MixedOcTree/src/SurfTemplate3.cpp > CMakeFiles/mesher_roi.dir/SurfTemplate3.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nch/Downloads/Memoria/MesherSharp/src/SurfTemplate3.cpp > CMakeFiles/mesher_roi.dir/SurfTemplate3.cpp.i
 
 CMakeFiles/mesher_roi.dir/SurfTemplate3.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesher_roi.dir/SurfTemplate3.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nch/Downloads/Memoria/MixedOcTree/src/SurfTemplate3.cpp -o CMakeFiles/mesher_roi.dir/SurfTemplate3.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nch/Downloads/Memoria/MesherSharp/src/SurfTemplate3.cpp -o CMakeFiles/mesher_roi.dir/SurfTemplate3.cpp.s
 
 CMakeFiles/mesher_roi.dir/SurfTemplate4.cpp.o: CMakeFiles/mesher_roi.dir/flags.make
 CMakeFiles/mesher_roi.dir/SurfTemplate4.cpp.o: src/SurfTemplate4.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nch/Downloads/Memoria/MixedOcTree/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/mesher_roi.dir/SurfTemplate4.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesher_roi.dir/SurfTemplate4.cpp.o -c /home/nch/Downloads/Memoria/MixedOcTree/src/SurfTemplate4.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nch/Downloads/Memoria/MesherSharp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/mesher_roi.dir/SurfTemplate4.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesher_roi.dir/SurfTemplate4.cpp.o -c /home/nch/Downloads/Memoria/MesherSharp/src/SurfTemplate4.cpp
 
 CMakeFiles/mesher_roi.dir/SurfTemplate4.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesher_roi.dir/SurfTemplate4.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nch/Downloads/Memoria/MixedOcTree/src/SurfTemplate4.cpp > CMakeFiles/mesher_roi.dir/SurfTemplate4.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nch/Downloads/Memoria/MesherSharp/src/SurfTemplate4.cpp > CMakeFiles/mesher_roi.dir/SurfTemplate4.cpp.i
 
 CMakeFiles/mesher_roi.dir/SurfTemplate4.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesher_roi.dir/SurfTemplate4.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nch/Downloads/Memoria/MixedOcTree/src/SurfTemplate4.cpp -o CMakeFiles/mesher_roi.dir/SurfTemplate4.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nch/Downloads/Memoria/MesherSharp/src/SurfTemplate4.cpp -o CMakeFiles/mesher_roi.dir/SurfTemplate4.cpp.s
 
 CMakeFiles/mesher_roi.dir/SurfTemplate5.cpp.o: CMakeFiles/mesher_roi.dir/flags.make
 CMakeFiles/mesher_roi.dir/SurfTemplate5.cpp.o: src/SurfTemplate5.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nch/Downloads/Memoria/MixedOcTree/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/mesher_roi.dir/SurfTemplate5.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesher_roi.dir/SurfTemplate5.cpp.o -c /home/nch/Downloads/Memoria/MixedOcTree/src/SurfTemplate5.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nch/Downloads/Memoria/MesherSharp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/mesher_roi.dir/SurfTemplate5.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesher_roi.dir/SurfTemplate5.cpp.o -c /home/nch/Downloads/Memoria/MesherSharp/src/SurfTemplate5.cpp
 
 CMakeFiles/mesher_roi.dir/SurfTemplate5.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesher_roi.dir/SurfTemplate5.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nch/Downloads/Memoria/MixedOcTree/src/SurfTemplate5.cpp > CMakeFiles/mesher_roi.dir/SurfTemplate5.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nch/Downloads/Memoria/MesherSharp/src/SurfTemplate5.cpp > CMakeFiles/mesher_roi.dir/SurfTemplate5.cpp.i
 
 CMakeFiles/mesher_roi.dir/SurfTemplate5.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesher_roi.dir/SurfTemplate5.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nch/Downloads/Memoria/MixedOcTree/src/SurfTemplate5.cpp -o CMakeFiles/mesher_roi.dir/SurfTemplate5.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nch/Downloads/Memoria/MesherSharp/src/SurfTemplate5.cpp -o CMakeFiles/mesher_roi.dir/SurfTemplate5.cpp.s
 
 CMakeFiles/mesher_roi.dir/SurfTemplate6.cpp.o: CMakeFiles/mesher_roi.dir/flags.make
 CMakeFiles/mesher_roi.dir/SurfTemplate6.cpp.o: src/SurfTemplate6.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nch/Downloads/Memoria/MixedOcTree/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/mesher_roi.dir/SurfTemplate6.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesher_roi.dir/SurfTemplate6.cpp.o -c /home/nch/Downloads/Memoria/MixedOcTree/src/SurfTemplate6.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nch/Downloads/Memoria/MesherSharp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/mesher_roi.dir/SurfTemplate6.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesher_roi.dir/SurfTemplate6.cpp.o -c /home/nch/Downloads/Memoria/MesherSharp/src/SurfTemplate6.cpp
 
 CMakeFiles/mesher_roi.dir/SurfTemplate6.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesher_roi.dir/SurfTemplate6.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nch/Downloads/Memoria/MixedOcTree/src/SurfTemplate6.cpp > CMakeFiles/mesher_roi.dir/SurfTemplate6.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nch/Downloads/Memoria/MesherSharp/src/SurfTemplate6.cpp > CMakeFiles/mesher_roi.dir/SurfTemplate6.cpp.i
 
 CMakeFiles/mesher_roi.dir/SurfTemplate6.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesher_roi.dir/SurfTemplate6.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nch/Downloads/Memoria/MixedOcTree/src/SurfTemplate6.cpp -o CMakeFiles/mesher_roi.dir/SurfTemplate6.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nch/Downloads/Memoria/MesherSharp/src/SurfTemplate6.cpp -o CMakeFiles/mesher_roi.dir/SurfTemplate6.cpp.s
 
 CMakeFiles/mesher_roi.dir/SurfTemplate7.cpp.o: CMakeFiles/mesher_roi.dir/flags.make
 CMakeFiles/mesher_roi.dir/SurfTemplate7.cpp.o: src/SurfTemplate7.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nch/Downloads/Memoria/MixedOcTree/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/mesher_roi.dir/SurfTemplate7.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesher_roi.dir/SurfTemplate7.cpp.o -c /home/nch/Downloads/Memoria/MixedOcTree/src/SurfTemplate7.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nch/Downloads/Memoria/MesherSharp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/mesher_roi.dir/SurfTemplate7.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesher_roi.dir/SurfTemplate7.cpp.o -c /home/nch/Downloads/Memoria/MesherSharp/src/SurfTemplate7.cpp
 
 CMakeFiles/mesher_roi.dir/SurfTemplate7.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesher_roi.dir/SurfTemplate7.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nch/Downloads/Memoria/MixedOcTree/src/SurfTemplate7.cpp > CMakeFiles/mesher_roi.dir/SurfTemplate7.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nch/Downloads/Memoria/MesherSharp/src/SurfTemplate7.cpp > CMakeFiles/mesher_roi.dir/SurfTemplate7.cpp.i
 
 CMakeFiles/mesher_roi.dir/SurfTemplate7.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesher_roi.dir/SurfTemplate7.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nch/Downloads/Memoria/MixedOcTree/src/SurfTemplate7.cpp -o CMakeFiles/mesher_roi.dir/SurfTemplate7.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nch/Downloads/Memoria/MesherSharp/src/SurfTemplate7.cpp -o CMakeFiles/mesher_roi.dir/SurfTemplate7.cpp.s
 
 CMakeFiles/mesher_roi.dir/Mesher.cpp.o: CMakeFiles/mesher_roi.dir/flags.make
 CMakeFiles/mesher_roi.dir/Mesher.cpp.o: src/Mesher.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nch/Downloads/Memoria/MixedOcTree/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/mesher_roi.dir/Mesher.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesher_roi.dir/Mesher.cpp.o -c /home/nch/Downloads/Memoria/MixedOcTree/src/Mesher.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nch/Downloads/Memoria/MesherSharp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/mesher_roi.dir/Mesher.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesher_roi.dir/Mesher.cpp.o -c /home/nch/Downloads/Memoria/MesherSharp/src/Mesher.cpp
 
 CMakeFiles/mesher_roi.dir/Mesher.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesher_roi.dir/Mesher.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nch/Downloads/Memoria/MixedOcTree/src/Mesher.cpp > CMakeFiles/mesher_roi.dir/Mesher.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nch/Downloads/Memoria/MesherSharp/src/Mesher.cpp > CMakeFiles/mesher_roi.dir/Mesher.cpp.i
 
 CMakeFiles/mesher_roi.dir/Mesher.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesher_roi.dir/Mesher.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nch/Downloads/Memoria/MixedOcTree/src/Mesher.cpp -o CMakeFiles/mesher_roi.dir/Mesher.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nch/Downloads/Memoria/MesherSharp/src/Mesher.cpp -o CMakeFiles/mesher_roi.dir/Mesher.cpp.s
 
 CMakeFiles/mesher_roi.dir/GridMesher.cpp.o: CMakeFiles/mesher_roi.dir/flags.make
 CMakeFiles/mesher_roi.dir/GridMesher.cpp.o: src/GridMesher.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nch/Downloads/Memoria/MixedOcTree/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/mesher_roi.dir/GridMesher.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesher_roi.dir/GridMesher.cpp.o -c /home/nch/Downloads/Memoria/MixedOcTree/src/GridMesher.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nch/Downloads/Memoria/MesherSharp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/mesher_roi.dir/GridMesher.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesher_roi.dir/GridMesher.cpp.o -c /home/nch/Downloads/Memoria/MesherSharp/src/GridMesher.cpp
 
 CMakeFiles/mesher_roi.dir/GridMesher.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesher_roi.dir/GridMesher.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nch/Downloads/Memoria/MixedOcTree/src/GridMesher.cpp > CMakeFiles/mesher_roi.dir/GridMesher.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nch/Downloads/Memoria/MesherSharp/src/GridMesher.cpp > CMakeFiles/mesher_roi.dir/GridMesher.cpp.i
 
 CMakeFiles/mesher_roi.dir/GridMesher.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesher_roi.dir/GridMesher.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nch/Downloads/Memoria/MixedOcTree/src/GridMesher.cpp -o CMakeFiles/mesher_roi.dir/GridMesher.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nch/Downloads/Memoria/MesherSharp/src/GridMesher.cpp -o CMakeFiles/mesher_roi.dir/GridMesher.cpp.s
 
 CMakeFiles/mesher_roi.dir/TransitionPoint.cpp.o: CMakeFiles/mesher_roi.dir/flags.make
 CMakeFiles/mesher_roi.dir/TransitionPoint.cpp.o: src/TransitionPoint.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nch/Downloads/Memoria/MixedOcTree/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/mesher_roi.dir/TransitionPoint.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesher_roi.dir/TransitionPoint.cpp.o -c /home/nch/Downloads/Memoria/MixedOcTree/src/TransitionPoint.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nch/Downloads/Memoria/MesherSharp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/mesher_roi.dir/TransitionPoint.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesher_roi.dir/TransitionPoint.cpp.o -c /home/nch/Downloads/Memoria/MesherSharp/src/TransitionPoint.cpp
 
 CMakeFiles/mesher_roi.dir/TransitionPoint.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesher_roi.dir/TransitionPoint.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nch/Downloads/Memoria/MixedOcTree/src/TransitionPoint.cpp > CMakeFiles/mesher_roi.dir/TransitionPoint.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nch/Downloads/Memoria/MesherSharp/src/TransitionPoint.cpp > CMakeFiles/mesher_roi.dir/TransitionPoint.cpp.i
 
 CMakeFiles/mesher_roi.dir/TransitionPoint.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesher_roi.dir/TransitionPoint.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nch/Downloads/Memoria/MixedOcTree/src/TransitionPoint.cpp -o CMakeFiles/mesher_roi.dir/TransitionPoint.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nch/Downloads/Memoria/MesherSharp/src/TransitionPoint.cpp -o CMakeFiles/mesher_roi.dir/TransitionPoint.cpp.s
 
 CMakeFiles/mesher_roi.dir/PatternFactory.cpp.o: CMakeFiles/mesher_roi.dir/flags.make
 CMakeFiles/mesher_roi.dir/PatternFactory.cpp.o: src/PatternFactory.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nch/Downloads/Memoria/MixedOcTree/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/mesher_roi.dir/PatternFactory.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesher_roi.dir/PatternFactory.cpp.o -c /home/nch/Downloads/Memoria/MixedOcTree/src/PatternFactory.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nch/Downloads/Memoria/MesherSharp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/mesher_roi.dir/PatternFactory.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesher_roi.dir/PatternFactory.cpp.o -c /home/nch/Downloads/Memoria/MesherSharp/src/PatternFactory.cpp
 
 CMakeFiles/mesher_roi.dir/PatternFactory.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesher_roi.dir/PatternFactory.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nch/Downloads/Memoria/MixedOcTree/src/PatternFactory.cpp > CMakeFiles/mesher_roi.dir/PatternFactory.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nch/Downloads/Memoria/MesherSharp/src/PatternFactory.cpp > CMakeFiles/mesher_roi.dir/PatternFactory.cpp.i
 
 CMakeFiles/mesher_roi.dir/PatternFactory.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesher_roi.dir/PatternFactory.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nch/Downloads/Memoria/MixedOcTree/src/PatternFactory.cpp -o CMakeFiles/mesher_roi.dir/PatternFactory.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nch/Downloads/Memoria/MesherSharp/src/PatternFactory.cpp -o CMakeFiles/mesher_roi.dir/PatternFactory.cpp.s
 
 CMakeFiles/mesher_roi.dir/TransitionTemplate.cpp.o: CMakeFiles/mesher_roi.dir/flags.make
 CMakeFiles/mesher_roi.dir/TransitionTemplate.cpp.o: src/TransitionTemplate.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nch/Downloads/Memoria/MixedOcTree/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/mesher_roi.dir/TransitionTemplate.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesher_roi.dir/TransitionTemplate.cpp.o -c /home/nch/Downloads/Memoria/MixedOcTree/src/TransitionTemplate.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nch/Downloads/Memoria/MesherSharp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/mesher_roi.dir/TransitionTemplate.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesher_roi.dir/TransitionTemplate.cpp.o -c /home/nch/Downloads/Memoria/MesherSharp/src/TransitionTemplate.cpp
 
 CMakeFiles/mesher_roi.dir/TransitionTemplate.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesher_roi.dir/TransitionTemplate.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nch/Downloads/Memoria/MixedOcTree/src/TransitionTemplate.cpp > CMakeFiles/mesher_roi.dir/TransitionTemplate.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nch/Downloads/Memoria/MesherSharp/src/TransitionTemplate.cpp > CMakeFiles/mesher_roi.dir/TransitionTemplate.cpp.i
 
 CMakeFiles/mesher_roi.dir/TransitionTemplate.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesher_roi.dir/TransitionTemplate.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nch/Downloads/Memoria/MixedOcTree/src/TransitionTemplate.cpp -o CMakeFiles/mesher_roi.dir/TransitionTemplate.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nch/Downloads/Memoria/MesherSharp/src/TransitionTemplate.cpp -o CMakeFiles/mesher_roi.dir/TransitionTemplate.cpp.s
 
 CMakeFiles/mesher_roi.dir/TransitionCube.cpp.o: CMakeFiles/mesher_roi.dir/flags.make
 CMakeFiles/mesher_roi.dir/TransitionCube.cpp.o: src/TransitionCube.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nch/Downloads/Memoria/MixedOcTree/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/mesher_roi.dir/TransitionCube.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesher_roi.dir/TransitionCube.cpp.o -c /home/nch/Downloads/Memoria/MixedOcTree/src/TransitionCube.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nch/Downloads/Memoria/MesherSharp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/mesher_roi.dir/TransitionCube.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesher_roi.dir/TransitionCube.cpp.o -c /home/nch/Downloads/Memoria/MesherSharp/src/TransitionCube.cpp
 
 CMakeFiles/mesher_roi.dir/TransitionCube.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesher_roi.dir/TransitionCube.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nch/Downloads/Memoria/MixedOcTree/src/TransitionCube.cpp > CMakeFiles/mesher_roi.dir/TransitionCube.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nch/Downloads/Memoria/MesherSharp/src/TransitionCube.cpp > CMakeFiles/mesher_roi.dir/TransitionCube.cpp.i
 
 CMakeFiles/mesher_roi.dir/TransitionCube.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesher_roi.dir/TransitionCube.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nch/Downloads/Memoria/MixedOcTree/src/TransitionCube.cpp -o CMakeFiles/mesher_roi.dir/TransitionCube.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nch/Downloads/Memoria/MesherSharp/src/TransitionCube.cpp -o CMakeFiles/mesher_roi.dir/TransitionCube.cpp.s
 
 CMakeFiles/mesher_roi.dir/SurfPair.cpp.o: CMakeFiles/mesher_roi.dir/flags.make
 CMakeFiles/mesher_roi.dir/SurfPair.cpp.o: src/SurfPair.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nch/Downloads/Memoria/MixedOcTree/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/mesher_roi.dir/SurfPair.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesher_roi.dir/SurfPair.cpp.o -c /home/nch/Downloads/Memoria/MixedOcTree/src/SurfPair.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nch/Downloads/Memoria/MesherSharp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/mesher_roi.dir/SurfPair.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesher_roi.dir/SurfPair.cpp.o -c /home/nch/Downloads/Memoria/MesherSharp/src/SurfPair.cpp
 
 CMakeFiles/mesher_roi.dir/SurfPair.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesher_roi.dir/SurfPair.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nch/Downloads/Memoria/MixedOcTree/src/SurfPair.cpp > CMakeFiles/mesher_roi.dir/SurfPair.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nch/Downloads/Memoria/MesherSharp/src/SurfPair.cpp > CMakeFiles/mesher_roi.dir/SurfPair.cpp.i
 
 CMakeFiles/mesher_roi.dir/SurfPair.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesher_roi.dir/SurfPair.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nch/Downloads/Memoria/MixedOcTree/src/SurfPair.cpp -o CMakeFiles/mesher_roi.dir/SurfPair.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nch/Downloads/Memoria/MesherSharp/src/SurfPair.cpp -o CMakeFiles/mesher_roi.dir/SurfPair.cpp.s
 
 CMakeFiles/mesher_roi.dir/SurfEdge.cpp.o: CMakeFiles/mesher_roi.dir/flags.make
 CMakeFiles/mesher_roi.dir/SurfEdge.cpp.o: src/SurfEdge.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nch/Downloads/Memoria/MixedOcTree/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/mesher_roi.dir/SurfEdge.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesher_roi.dir/SurfEdge.cpp.o -c /home/nch/Downloads/Memoria/MixedOcTree/src/SurfEdge.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nch/Downloads/Memoria/MesherSharp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/mesher_roi.dir/SurfEdge.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesher_roi.dir/SurfEdge.cpp.o -c /home/nch/Downloads/Memoria/MesherSharp/src/SurfEdge.cpp
 
 CMakeFiles/mesher_roi.dir/SurfEdge.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesher_roi.dir/SurfEdge.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nch/Downloads/Memoria/MixedOcTree/src/SurfEdge.cpp > CMakeFiles/mesher_roi.dir/SurfEdge.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nch/Downloads/Memoria/MesherSharp/src/SurfEdge.cpp > CMakeFiles/mesher_roi.dir/SurfEdge.cpp.i
 
 CMakeFiles/mesher_roi.dir/SurfEdge.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesher_roi.dir/SurfEdge.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nch/Downloads/Memoria/MixedOcTree/src/SurfEdge.cpp -o CMakeFiles/mesher_roi.dir/SurfEdge.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nch/Downloads/Memoria/MesherSharp/src/SurfEdge.cpp -o CMakeFiles/mesher_roi.dir/SurfEdge.cpp.s
 
 CMakeFiles/mesher_roi.dir/SurfEdgeContainer.cpp.o: CMakeFiles/mesher_roi.dir/flags.make
 CMakeFiles/mesher_roi.dir/SurfEdgeContainer.cpp.o: src/SurfEdgeContainer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nch/Downloads/Memoria/MixedOcTree/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/mesher_roi.dir/SurfEdgeContainer.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesher_roi.dir/SurfEdgeContainer.cpp.o -c /home/nch/Downloads/Memoria/MixedOcTree/src/SurfEdgeContainer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nch/Downloads/Memoria/MesherSharp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/mesher_roi.dir/SurfEdgeContainer.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesher_roi.dir/SurfEdgeContainer.cpp.o -c /home/nch/Downloads/Memoria/MesherSharp/src/SurfEdgeContainer.cpp
 
 CMakeFiles/mesher_roi.dir/SurfEdgeContainer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesher_roi.dir/SurfEdgeContainer.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nch/Downloads/Memoria/MixedOcTree/src/SurfEdgeContainer.cpp > CMakeFiles/mesher_roi.dir/SurfEdgeContainer.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nch/Downloads/Memoria/MesherSharp/src/SurfEdgeContainer.cpp > CMakeFiles/mesher_roi.dir/SurfEdgeContainer.cpp.i
 
 CMakeFiles/mesher_roi.dir/SurfEdgeContainer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesher_roi.dir/SurfEdgeContainer.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nch/Downloads/Memoria/MixedOcTree/src/SurfEdgeContainer.cpp -o CMakeFiles/mesher_roi.dir/SurfEdgeContainer.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nch/Downloads/Memoria/MesherSharp/src/SurfEdgeContainer.cpp -o CMakeFiles/mesher_roi.dir/SurfEdgeContainer.cpp.s
 
 CMakeFiles/mesher_roi.dir/SurfTriangle.cpp.o: CMakeFiles/mesher_roi.dir/flags.make
 CMakeFiles/mesher_roi.dir/SurfTriangle.cpp.o: src/SurfTriangle.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nch/Downloads/Memoria/MixedOcTree/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/mesher_roi.dir/SurfTriangle.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesher_roi.dir/SurfTriangle.cpp.o -c /home/nch/Downloads/Memoria/MixedOcTree/src/SurfTriangle.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nch/Downloads/Memoria/MesherSharp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/mesher_roi.dir/SurfTriangle.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesher_roi.dir/SurfTriangle.cpp.o -c /home/nch/Downloads/Memoria/MesherSharp/src/SurfTriangle.cpp
 
 CMakeFiles/mesher_roi.dir/SurfTriangle.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesher_roi.dir/SurfTriangle.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nch/Downloads/Memoria/MixedOcTree/src/SurfTriangle.cpp > CMakeFiles/mesher_roi.dir/SurfTriangle.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nch/Downloads/Memoria/MesherSharp/src/SurfTriangle.cpp > CMakeFiles/mesher_roi.dir/SurfTriangle.cpp.i
 
 CMakeFiles/mesher_roi.dir/SurfTriangle.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesher_roi.dir/SurfTriangle.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nch/Downloads/Memoria/MixedOcTree/src/SurfTriangle.cpp -o CMakeFiles/mesher_roi.dir/SurfTriangle.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nch/Downloads/Memoria/MesherSharp/src/SurfTriangle.cpp -o CMakeFiles/mesher_roi.dir/SurfTriangle.cpp.s
 
 CMakeFiles/mesher_roi.dir/RefinementRegion.cpp.o: CMakeFiles/mesher_roi.dir/flags.make
 CMakeFiles/mesher_roi.dir/RefinementRegion.cpp.o: src/RefinementRegion.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nch/Downloads/Memoria/MixedOcTree/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/mesher_roi.dir/RefinementRegion.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesher_roi.dir/RefinementRegion.cpp.o -c /home/nch/Downloads/Memoria/MixedOcTree/src/RefinementRegion.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nch/Downloads/Memoria/MesherSharp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/mesher_roi.dir/RefinementRegion.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesher_roi.dir/RefinementRegion.cpp.o -c /home/nch/Downloads/Memoria/MesherSharp/src/RefinementRegion.cpp
 
 CMakeFiles/mesher_roi.dir/RefinementRegion.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesher_roi.dir/RefinementRegion.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nch/Downloads/Memoria/MixedOcTree/src/RefinementRegion.cpp > CMakeFiles/mesher_roi.dir/RefinementRegion.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nch/Downloads/Memoria/MesherSharp/src/RefinementRegion.cpp > CMakeFiles/mesher_roi.dir/RefinementRegion.cpp.i
 
 CMakeFiles/mesher_roi.dir/RefinementRegion.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesher_roi.dir/RefinementRegion.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nch/Downloads/Memoria/MixedOcTree/src/RefinementRegion.cpp -o CMakeFiles/mesher_roi.dir/RefinementRegion.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nch/Downloads/Memoria/MesherSharp/src/RefinementRegion.cpp -o CMakeFiles/mesher_roi.dir/RefinementRegion.cpp.s
 
 CMakeFiles/mesher_roi.dir/RefinementCubeRegion.cpp.o: CMakeFiles/mesher_roi.dir/flags.make
 CMakeFiles/mesher_roi.dir/RefinementCubeRegion.cpp.o: src/RefinementCubeRegion.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nch/Downloads/Memoria/MixedOcTree/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/mesher_roi.dir/RefinementCubeRegion.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesher_roi.dir/RefinementCubeRegion.cpp.o -c /home/nch/Downloads/Memoria/MixedOcTree/src/RefinementCubeRegion.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nch/Downloads/Memoria/MesherSharp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/mesher_roi.dir/RefinementCubeRegion.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesher_roi.dir/RefinementCubeRegion.cpp.o -c /home/nch/Downloads/Memoria/MesherSharp/src/RefinementCubeRegion.cpp
 
 CMakeFiles/mesher_roi.dir/RefinementCubeRegion.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesher_roi.dir/RefinementCubeRegion.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nch/Downloads/Memoria/MixedOcTree/src/RefinementCubeRegion.cpp > CMakeFiles/mesher_roi.dir/RefinementCubeRegion.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nch/Downloads/Memoria/MesherSharp/src/RefinementCubeRegion.cpp > CMakeFiles/mesher_roi.dir/RefinementCubeRegion.cpp.i
 
 CMakeFiles/mesher_roi.dir/RefinementCubeRegion.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesher_roi.dir/RefinementCubeRegion.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nch/Downloads/Memoria/MixedOcTree/src/RefinementCubeRegion.cpp -o CMakeFiles/mesher_roi.dir/RefinementCubeRegion.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nch/Downloads/Memoria/MesherSharp/src/RefinementCubeRegion.cpp -o CMakeFiles/mesher_roi.dir/RefinementCubeRegion.cpp.s
 
 CMakeFiles/mesher_roi.dir/RefinementSurfaceRegion.cpp.o: CMakeFiles/mesher_roi.dir/flags.make
 CMakeFiles/mesher_roi.dir/RefinementSurfaceRegion.cpp.o: src/RefinementSurfaceRegion.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nch/Downloads/Memoria/MixedOcTree/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/mesher_roi.dir/RefinementSurfaceRegion.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesher_roi.dir/RefinementSurfaceRegion.cpp.o -c /home/nch/Downloads/Memoria/MixedOcTree/src/RefinementSurfaceRegion.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nch/Downloads/Memoria/MesherSharp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/mesher_roi.dir/RefinementSurfaceRegion.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesher_roi.dir/RefinementSurfaceRegion.cpp.o -c /home/nch/Downloads/Memoria/MesherSharp/src/RefinementSurfaceRegion.cpp
 
 CMakeFiles/mesher_roi.dir/RefinementSurfaceRegion.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesher_roi.dir/RefinementSurfaceRegion.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nch/Downloads/Memoria/MixedOcTree/src/RefinementSurfaceRegion.cpp > CMakeFiles/mesher_roi.dir/RefinementSurfaceRegion.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nch/Downloads/Memoria/MesherSharp/src/RefinementSurfaceRegion.cpp > CMakeFiles/mesher_roi.dir/RefinementSurfaceRegion.cpp.i
 
 CMakeFiles/mesher_roi.dir/RefinementSurfaceRegion.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesher_roi.dir/RefinementSurfaceRegion.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nch/Downloads/Memoria/MixedOcTree/src/RefinementSurfaceRegion.cpp -o CMakeFiles/mesher_roi.dir/RefinementSurfaceRegion.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nch/Downloads/Memoria/MesherSharp/src/RefinementSurfaceRegion.cpp -o CMakeFiles/mesher_roi.dir/RefinementSurfaceRegion.cpp.s
 
 CMakeFiles/mesher_roi.dir/RefinementInputSurfaceRegion.cpp.o: CMakeFiles/mesher_roi.dir/flags.make
 CMakeFiles/mesher_roi.dir/RefinementInputSurfaceRegion.cpp.o: src/RefinementInputSurfaceRegion.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nch/Downloads/Memoria/MixedOcTree/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/mesher_roi.dir/RefinementInputSurfaceRegion.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesher_roi.dir/RefinementInputSurfaceRegion.cpp.o -c /home/nch/Downloads/Memoria/MixedOcTree/src/RefinementInputSurfaceRegion.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nch/Downloads/Memoria/MesherSharp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/mesher_roi.dir/RefinementInputSurfaceRegion.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesher_roi.dir/RefinementInputSurfaceRegion.cpp.o -c /home/nch/Downloads/Memoria/MesherSharp/src/RefinementInputSurfaceRegion.cpp
 
 CMakeFiles/mesher_roi.dir/RefinementInputSurfaceRegion.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesher_roi.dir/RefinementInputSurfaceRegion.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nch/Downloads/Memoria/MixedOcTree/src/RefinementInputSurfaceRegion.cpp > CMakeFiles/mesher_roi.dir/RefinementInputSurfaceRegion.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nch/Downloads/Memoria/MesherSharp/src/RefinementInputSurfaceRegion.cpp > CMakeFiles/mesher_roi.dir/RefinementInputSurfaceRegion.cpp.i
 
 CMakeFiles/mesher_roi.dir/RefinementInputSurfaceRegion.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesher_roi.dir/RefinementInputSurfaceRegion.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nch/Downloads/Memoria/MixedOcTree/src/RefinementInputSurfaceRegion.cpp -o CMakeFiles/mesher_roi.dir/RefinementInputSurfaceRegion.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nch/Downloads/Memoria/MesherSharp/src/RefinementInputSurfaceRegion.cpp -o CMakeFiles/mesher_roi.dir/RefinementInputSurfaceRegion.cpp.s
 
 CMakeFiles/mesher_roi.dir/RefinementAllRegion.cpp.o: CMakeFiles/mesher_roi.dir/flags.make
 CMakeFiles/mesher_roi.dir/RefinementAllRegion.cpp.o: src/RefinementAllRegion.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nch/Downloads/Memoria/MixedOcTree/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/mesher_roi.dir/RefinementAllRegion.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesher_roi.dir/RefinementAllRegion.cpp.o -c /home/nch/Downloads/Memoria/MixedOcTree/src/RefinementAllRegion.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nch/Downloads/Memoria/MesherSharp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/mesher_roi.dir/RefinementAllRegion.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesher_roi.dir/RefinementAllRegion.cpp.o -c /home/nch/Downloads/Memoria/MesherSharp/src/RefinementAllRegion.cpp
 
 CMakeFiles/mesher_roi.dir/RefinementAllRegion.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesher_roi.dir/RefinementAllRegion.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nch/Downloads/Memoria/MixedOcTree/src/RefinementAllRegion.cpp > CMakeFiles/mesher_roi.dir/RefinementAllRegion.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nch/Downloads/Memoria/MesherSharp/src/RefinementAllRegion.cpp > CMakeFiles/mesher_roi.dir/RefinementAllRegion.cpp.i
 
 CMakeFiles/mesher_roi.dir/RefinementAllRegion.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesher_roi.dir/RefinementAllRegion.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nch/Downloads/Memoria/MixedOcTree/src/RefinementAllRegion.cpp -o CMakeFiles/mesher_roi.dir/RefinementAllRegion.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nch/Downloads/Memoria/MesherSharp/src/RefinementAllRegion.cpp -o CMakeFiles/mesher_roi.dir/RefinementAllRegion.cpp.s
 
 CMakeFiles/mesher_roi.dir/FaceDiagonal.cpp.o: CMakeFiles/mesher_roi.dir/flags.make
 CMakeFiles/mesher_roi.dir/FaceDiagonal.cpp.o: src/FaceDiagonal.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nch/Downloads/Memoria/MixedOcTree/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/mesher_roi.dir/FaceDiagonal.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesher_roi.dir/FaceDiagonal.cpp.o -c /home/nch/Downloads/Memoria/MixedOcTree/src/FaceDiagonal.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nch/Downloads/Memoria/MesherSharp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/mesher_roi.dir/FaceDiagonal.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesher_roi.dir/FaceDiagonal.cpp.o -c /home/nch/Downloads/Memoria/MesherSharp/src/FaceDiagonal.cpp
 
 CMakeFiles/mesher_roi.dir/FaceDiagonal.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesher_roi.dir/FaceDiagonal.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nch/Downloads/Memoria/MixedOcTree/src/FaceDiagonal.cpp > CMakeFiles/mesher_roi.dir/FaceDiagonal.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nch/Downloads/Memoria/MesherSharp/src/FaceDiagonal.cpp > CMakeFiles/mesher_roi.dir/FaceDiagonal.cpp.i
 
 CMakeFiles/mesher_roi.dir/FaceDiagonal.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesher_roi.dir/FaceDiagonal.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nch/Downloads/Memoria/MixedOcTree/src/FaceDiagonal.cpp -o CMakeFiles/mesher_roi.dir/FaceDiagonal.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nch/Downloads/Memoria/MesherSharp/src/FaceDiagonal.cpp -o CMakeFiles/mesher_roi.dir/FaceDiagonal.cpp.s
 
 CMakeFiles/mesher_roi.dir/SurfPrism.cpp.o: CMakeFiles/mesher_roi.dir/flags.make
 CMakeFiles/mesher_roi.dir/SurfPrism.cpp.o: src/SurfPrism.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nch/Downloads/Memoria/MixedOcTree/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/mesher_roi.dir/SurfPrism.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesher_roi.dir/SurfPrism.cpp.o -c /home/nch/Downloads/Memoria/MixedOcTree/src/SurfPrism.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nch/Downloads/Memoria/MesherSharp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/mesher_roi.dir/SurfPrism.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesher_roi.dir/SurfPrism.cpp.o -c /home/nch/Downloads/Memoria/MesherSharp/src/SurfPrism.cpp
 
 CMakeFiles/mesher_roi.dir/SurfPrism.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesher_roi.dir/SurfPrism.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nch/Downloads/Memoria/MixedOcTree/src/SurfPrism.cpp > CMakeFiles/mesher_roi.dir/SurfPrism.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nch/Downloads/Memoria/MesherSharp/src/SurfPrism.cpp > CMakeFiles/mesher_roi.dir/SurfPrism.cpp.i
 
 CMakeFiles/mesher_roi.dir/SurfPrism.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesher_roi.dir/SurfPrism.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nch/Downloads/Memoria/MixedOcTree/src/SurfPrism.cpp -o CMakeFiles/mesher_roi.dir/SurfPrism.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nch/Downloads/Memoria/MesherSharp/src/SurfPrism.cpp -o CMakeFiles/mesher_roi.dir/SurfPrism.cpp.s
 
 CMakeFiles/mesher_roi.dir/SurfPyramid.cpp.o: CMakeFiles/mesher_roi.dir/flags.make
 CMakeFiles/mesher_roi.dir/SurfPyramid.cpp.o: src/SurfPyramid.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nch/Downloads/Memoria/MixedOcTree/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object CMakeFiles/mesher_roi.dir/SurfPyramid.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesher_roi.dir/SurfPyramid.cpp.o -c /home/nch/Downloads/Memoria/MixedOcTree/src/SurfPyramid.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nch/Downloads/Memoria/MesherSharp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object CMakeFiles/mesher_roi.dir/SurfPyramid.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesher_roi.dir/SurfPyramid.cpp.o -c /home/nch/Downloads/Memoria/MesherSharp/src/SurfPyramid.cpp
 
 CMakeFiles/mesher_roi.dir/SurfPyramid.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesher_roi.dir/SurfPyramid.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nch/Downloads/Memoria/MixedOcTree/src/SurfPyramid.cpp > CMakeFiles/mesher_roi.dir/SurfPyramid.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nch/Downloads/Memoria/MesherSharp/src/SurfPyramid.cpp > CMakeFiles/mesher_roi.dir/SurfPyramid.cpp.i
 
 CMakeFiles/mesher_roi.dir/SurfPyramid.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesher_roi.dir/SurfPyramid.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nch/Downloads/Memoria/MixedOcTree/src/SurfPyramid.cpp -o CMakeFiles/mesher_roi.dir/SurfPyramid.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nch/Downloads/Memoria/MesherSharp/src/SurfPyramid.cpp -o CMakeFiles/mesher_roi.dir/SurfPyramid.cpp.s
 
 CMakeFiles/mesher_roi.dir/SurfHexahedron.cpp.o: CMakeFiles/mesher_roi.dir/flags.make
 CMakeFiles/mesher_roi.dir/SurfHexahedron.cpp.o: src/SurfHexahedron.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nch/Downloads/Memoria/MixedOcTree/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object CMakeFiles/mesher_roi.dir/SurfHexahedron.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesher_roi.dir/SurfHexahedron.cpp.o -c /home/nch/Downloads/Memoria/MixedOcTree/src/SurfHexahedron.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nch/Downloads/Memoria/MesherSharp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object CMakeFiles/mesher_roi.dir/SurfHexahedron.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesher_roi.dir/SurfHexahedron.cpp.o -c /home/nch/Downloads/Memoria/MesherSharp/src/SurfHexahedron.cpp
 
 CMakeFiles/mesher_roi.dir/SurfHexahedron.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesher_roi.dir/SurfHexahedron.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nch/Downloads/Memoria/MixedOcTree/src/SurfHexahedron.cpp > CMakeFiles/mesher_roi.dir/SurfHexahedron.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nch/Downloads/Memoria/MesherSharp/src/SurfHexahedron.cpp > CMakeFiles/mesher_roi.dir/SurfHexahedron.cpp.i
 
 CMakeFiles/mesher_roi.dir/SurfHexahedron.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesher_roi.dir/SurfHexahedron.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nch/Downloads/Memoria/MixedOcTree/src/SurfHexahedron.cpp -o CMakeFiles/mesher_roi.dir/SurfHexahedron.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nch/Downloads/Memoria/MesherSharp/src/SurfHexahedron.cpp -o CMakeFiles/mesher_roi.dir/SurfHexahedron.cpp.s
 
 CMakeFiles/mesher_roi.dir/SurfTetrahedron.cpp.o: CMakeFiles/mesher_roi.dir/flags.make
 CMakeFiles/mesher_roi.dir/SurfTetrahedron.cpp.o: src/SurfTetrahedron.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nch/Downloads/Memoria/MixedOcTree/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object CMakeFiles/mesher_roi.dir/SurfTetrahedron.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesher_roi.dir/SurfTetrahedron.cpp.o -c /home/nch/Downloads/Memoria/MixedOcTree/src/SurfTetrahedron.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nch/Downloads/Memoria/MesherSharp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object CMakeFiles/mesher_roi.dir/SurfTetrahedron.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesher_roi.dir/SurfTetrahedron.cpp.o -c /home/nch/Downloads/Memoria/MesherSharp/src/SurfTetrahedron.cpp
 
 CMakeFiles/mesher_roi.dir/SurfTetrahedron.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesher_roi.dir/SurfTetrahedron.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nch/Downloads/Memoria/MixedOcTree/src/SurfTetrahedron.cpp > CMakeFiles/mesher_roi.dir/SurfTetrahedron.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nch/Downloads/Memoria/MesherSharp/src/SurfTetrahedron.cpp > CMakeFiles/mesher_roi.dir/SurfTetrahedron.cpp.i
 
 CMakeFiles/mesher_roi.dir/SurfTetrahedron.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesher_roi.dir/SurfTetrahedron.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nch/Downloads/Memoria/MixedOcTree/src/SurfTetrahedron.cpp -o CMakeFiles/mesher_roi.dir/SurfTetrahedron.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nch/Downloads/Memoria/MesherSharp/src/SurfTetrahedron.cpp -o CMakeFiles/mesher_roi.dir/SurfTetrahedron.cpp.s
 
 CMakeFiles/mesher_roi.dir/SurfaceEdge.cpp.o: CMakeFiles/mesher_roi.dir/flags.make
 CMakeFiles/mesher_roi.dir/SurfaceEdge.cpp.o: src/SurfaceEdge.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nch/Downloads/Memoria/MixedOcTree/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object CMakeFiles/mesher_roi.dir/SurfaceEdge.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesher_roi.dir/SurfaceEdge.cpp.o -c /home/nch/Downloads/Memoria/MixedOcTree/src/SurfaceEdge.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nch/Downloads/Memoria/MesherSharp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object CMakeFiles/mesher_roi.dir/SurfaceEdge.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesher_roi.dir/SurfaceEdge.cpp.o -c /home/nch/Downloads/Memoria/MesherSharp/src/SurfaceEdge.cpp
 
 CMakeFiles/mesher_roi.dir/SurfaceEdge.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesher_roi.dir/SurfaceEdge.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nch/Downloads/Memoria/MixedOcTree/src/SurfaceEdge.cpp > CMakeFiles/mesher_roi.dir/SurfaceEdge.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nch/Downloads/Memoria/MesherSharp/src/SurfaceEdge.cpp > CMakeFiles/mesher_roi.dir/SurfaceEdge.cpp.i
 
 CMakeFiles/mesher_roi.dir/SurfaceEdge.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesher_roi.dir/SurfaceEdge.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nch/Downloads/Memoria/MixedOcTree/src/SurfaceEdge.cpp -o CMakeFiles/mesher_roi.dir/SurfaceEdge.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nch/Downloads/Memoria/MesherSharp/src/SurfaceEdge.cpp -o CMakeFiles/mesher_roi.dir/SurfaceEdge.cpp.s
 
 CMakeFiles/mesher_roi.dir/GeometricTransform.cpp.o: CMakeFiles/mesher_roi.dir/flags.make
 CMakeFiles/mesher_roi.dir/GeometricTransform.cpp.o: src/GeometricTransform.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nch/Downloads/Memoria/MixedOcTree/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object CMakeFiles/mesher_roi.dir/GeometricTransform.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesher_roi.dir/GeometricTransform.cpp.o -c /home/nch/Downloads/Memoria/MixedOcTree/src/GeometricTransform.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nch/Downloads/Memoria/MesherSharp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object CMakeFiles/mesher_roi.dir/GeometricTransform.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesher_roi.dir/GeometricTransform.cpp.o -c /home/nch/Downloads/Memoria/MesherSharp/src/GeometricTransform.cpp
 
 CMakeFiles/mesher_roi.dir/GeometricTransform.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesher_roi.dir/GeometricTransform.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nch/Downloads/Memoria/MixedOcTree/src/GeometricTransform.cpp > CMakeFiles/mesher_roi.dir/GeometricTransform.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nch/Downloads/Memoria/MesherSharp/src/GeometricTransform.cpp > CMakeFiles/mesher_roi.dir/GeometricTransform.cpp.i
 
 CMakeFiles/mesher_roi.dir/GeometricTransform.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesher_roi.dir/GeometricTransform.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nch/Downloads/Memoria/MixedOcTree/src/GeometricTransform.cpp -o CMakeFiles/mesher_roi.dir/GeometricTransform.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nch/Downloads/Memoria/MesherSharp/src/GeometricTransform.cpp -o CMakeFiles/mesher_roi.dir/GeometricTransform.cpp.s
 
 CMakeFiles/mesher_roi.dir/Face.cpp.o: CMakeFiles/mesher_roi.dir/flags.make
 CMakeFiles/mesher_roi.dir/Face.cpp.o: src/Face.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nch/Downloads/Memoria/MixedOcTree/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object CMakeFiles/mesher_roi.dir/Face.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesher_roi.dir/Face.cpp.o -c /home/nch/Downloads/Memoria/MixedOcTree/src/Face.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nch/Downloads/Memoria/MesherSharp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object CMakeFiles/mesher_roi.dir/Face.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesher_roi.dir/Face.cpp.o -c /home/nch/Downloads/Memoria/MesherSharp/src/Face.cpp
 
 CMakeFiles/mesher_roi.dir/Face.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesher_roi.dir/Face.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nch/Downloads/Memoria/MixedOcTree/src/Face.cpp > CMakeFiles/mesher_roi.dir/Face.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nch/Downloads/Memoria/MesherSharp/src/Face.cpp > CMakeFiles/mesher_roi.dir/Face.cpp.i
 
 CMakeFiles/mesher_roi.dir/Face.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesher_roi.dir/Face.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nch/Downloads/Memoria/MixedOcTree/src/Face.cpp -o CMakeFiles/mesher_roi.dir/Face.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nch/Downloads/Memoria/MesherSharp/src/Face.cpp -o CMakeFiles/mesher_roi.dir/Face.cpp.s
 
 CMakeFiles/mesher_roi.dir/FaceContainer.cpp.o: CMakeFiles/mesher_roi.dir/flags.make
 CMakeFiles/mesher_roi.dir/FaceContainer.cpp.o: src/FaceContainer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nch/Downloads/Memoria/MixedOcTree/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object CMakeFiles/mesher_roi.dir/FaceContainer.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesher_roi.dir/FaceContainer.cpp.o -c /home/nch/Downloads/Memoria/MixedOcTree/src/FaceContainer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nch/Downloads/Memoria/MesherSharp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object CMakeFiles/mesher_roi.dir/FaceContainer.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesher_roi.dir/FaceContainer.cpp.o -c /home/nch/Downloads/Memoria/MesherSharp/src/FaceContainer.cpp
 
 CMakeFiles/mesher_roi.dir/FaceContainer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesher_roi.dir/FaceContainer.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nch/Downloads/Memoria/MixedOcTree/src/FaceContainer.cpp > CMakeFiles/mesher_roi.dir/FaceContainer.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nch/Downloads/Memoria/MesherSharp/src/FaceContainer.cpp > CMakeFiles/mesher_roi.dir/FaceContainer.cpp.i
 
 CMakeFiles/mesher_roi.dir/FaceContainer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesher_roi.dir/FaceContainer.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nch/Downloads/Memoria/MixedOcTree/src/FaceContainer.cpp -o CMakeFiles/mesher_roi.dir/FaceContainer.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nch/Downloads/Memoria/MesherSharp/src/FaceContainer.cpp -o CMakeFiles/mesher_roi.dir/FaceContainer.cpp.s
 
 CMakeFiles/mesher_roi.dir/Visitors/Visitor.cpp.o: CMakeFiles/mesher_roi.dir/flags.make
 CMakeFiles/mesher_roi.dir/Visitors/Visitor.cpp.o: src/Visitors/Visitor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nch/Downloads/Memoria/MixedOcTree/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object CMakeFiles/mesher_roi.dir/Visitors/Visitor.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesher_roi.dir/Visitors/Visitor.cpp.o -c /home/nch/Downloads/Memoria/MixedOcTree/src/Visitors/Visitor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nch/Downloads/Memoria/MesherSharp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object CMakeFiles/mesher_roi.dir/Visitors/Visitor.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesher_roi.dir/Visitors/Visitor.cpp.o -c /home/nch/Downloads/Memoria/MesherSharp/src/Visitors/Visitor.cpp
 
 CMakeFiles/mesher_roi.dir/Visitors/Visitor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesher_roi.dir/Visitors/Visitor.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nch/Downloads/Memoria/MixedOcTree/src/Visitors/Visitor.cpp > CMakeFiles/mesher_roi.dir/Visitors/Visitor.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nch/Downloads/Memoria/MesherSharp/src/Visitors/Visitor.cpp > CMakeFiles/mesher_roi.dir/Visitors/Visitor.cpp.i
 
 CMakeFiles/mesher_roi.dir/Visitors/Visitor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesher_roi.dir/Visitors/Visitor.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nch/Downloads/Memoria/MixedOcTree/src/Visitors/Visitor.cpp -o CMakeFiles/mesher_roi.dir/Visitors/Visitor.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nch/Downloads/Memoria/MesherSharp/src/Visitors/Visitor.cpp -o CMakeFiles/mesher_roi.dir/Visitors/Visitor.cpp.s
 
 CMakeFiles/mesher_roi.dir/Visitors/SplitVisitor.cpp.o: CMakeFiles/mesher_roi.dir/flags.make
 CMakeFiles/mesher_roi.dir/Visitors/SplitVisitor.cpp.o: src/Visitors/SplitVisitor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nch/Downloads/Memoria/MixedOcTree/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object CMakeFiles/mesher_roi.dir/Visitors/SplitVisitor.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesher_roi.dir/Visitors/SplitVisitor.cpp.o -c /home/nch/Downloads/Memoria/MixedOcTree/src/Visitors/SplitVisitor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nch/Downloads/Memoria/MesherSharp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object CMakeFiles/mesher_roi.dir/Visitors/SplitVisitor.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesher_roi.dir/Visitors/SplitVisitor.cpp.o -c /home/nch/Downloads/Memoria/MesherSharp/src/Visitors/SplitVisitor.cpp
 
 CMakeFiles/mesher_roi.dir/Visitors/SplitVisitor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesher_roi.dir/Visitors/SplitVisitor.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nch/Downloads/Memoria/MixedOcTree/src/Visitors/SplitVisitor.cpp > CMakeFiles/mesher_roi.dir/Visitors/SplitVisitor.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nch/Downloads/Memoria/MesherSharp/src/Visitors/SplitVisitor.cpp > CMakeFiles/mesher_roi.dir/Visitors/SplitVisitor.cpp.i
 
 CMakeFiles/mesher_roi.dir/Visitors/SplitVisitor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesher_roi.dir/Visitors/SplitVisitor.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nch/Downloads/Memoria/MixedOcTree/src/Visitors/SplitVisitor.cpp -o CMakeFiles/mesher_roi.dir/Visitors/SplitVisitor.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nch/Downloads/Memoria/MesherSharp/src/Visitors/SplitVisitor.cpp -o CMakeFiles/mesher_roi.dir/Visitors/SplitVisitor.cpp.s
 
 CMakeFiles/mesher_roi.dir/Visitors/EdgeVisitor.cpp.o: CMakeFiles/mesher_roi.dir/flags.make
 CMakeFiles/mesher_roi.dir/Visitors/EdgeVisitor.cpp.o: src/Visitors/EdgeVisitor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nch/Downloads/Memoria/MixedOcTree/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object CMakeFiles/mesher_roi.dir/Visitors/EdgeVisitor.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesher_roi.dir/Visitors/EdgeVisitor.cpp.o -c /home/nch/Downloads/Memoria/MixedOcTree/src/Visitors/EdgeVisitor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nch/Downloads/Memoria/MesherSharp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object CMakeFiles/mesher_roi.dir/Visitors/EdgeVisitor.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesher_roi.dir/Visitors/EdgeVisitor.cpp.o -c /home/nch/Downloads/Memoria/MesherSharp/src/Visitors/EdgeVisitor.cpp
 
 CMakeFiles/mesher_roi.dir/Visitors/EdgeVisitor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesher_roi.dir/Visitors/EdgeVisitor.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nch/Downloads/Memoria/MixedOcTree/src/Visitors/EdgeVisitor.cpp > CMakeFiles/mesher_roi.dir/Visitors/EdgeVisitor.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nch/Downloads/Memoria/MesherSharp/src/Visitors/EdgeVisitor.cpp > CMakeFiles/mesher_roi.dir/Visitors/EdgeVisitor.cpp.i
 
 CMakeFiles/mesher_roi.dir/Visitors/EdgeVisitor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesher_roi.dir/Visitors/EdgeVisitor.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nch/Downloads/Memoria/MixedOcTree/src/Visitors/EdgeVisitor.cpp -o CMakeFiles/mesher_roi.dir/Visitors/EdgeVisitor.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nch/Downloads/Memoria/MesherSharp/src/Visitors/EdgeVisitor.cpp -o CMakeFiles/mesher_roi.dir/Visitors/EdgeVisitor.cpp.s
 
 CMakeFiles/mesher_roi.dir/Visitors/IntersectionsVisitor.cpp.o: CMakeFiles/mesher_roi.dir/flags.make
 CMakeFiles/mesher_roi.dir/Visitors/IntersectionsVisitor.cpp.o: src/Visitors/IntersectionsVisitor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nch/Downloads/Memoria/MixedOcTree/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object CMakeFiles/mesher_roi.dir/Visitors/IntersectionsVisitor.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesher_roi.dir/Visitors/IntersectionsVisitor.cpp.o -c /home/nch/Downloads/Memoria/MixedOcTree/src/Visitors/IntersectionsVisitor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nch/Downloads/Memoria/MesherSharp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object CMakeFiles/mesher_roi.dir/Visitors/IntersectionsVisitor.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesher_roi.dir/Visitors/IntersectionsVisitor.cpp.o -c /home/nch/Downloads/Memoria/MesherSharp/src/Visitors/IntersectionsVisitor.cpp
 
 CMakeFiles/mesher_roi.dir/Visitors/IntersectionsVisitor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesher_roi.dir/Visitors/IntersectionsVisitor.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nch/Downloads/Memoria/MixedOcTree/src/Visitors/IntersectionsVisitor.cpp > CMakeFiles/mesher_roi.dir/Visitors/IntersectionsVisitor.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nch/Downloads/Memoria/MesherSharp/src/Visitors/IntersectionsVisitor.cpp > CMakeFiles/mesher_roi.dir/Visitors/IntersectionsVisitor.cpp.i
 
 CMakeFiles/mesher_roi.dir/Visitors/IntersectionsVisitor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesher_roi.dir/Visitors/IntersectionsVisitor.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nch/Downloads/Memoria/MixedOcTree/src/Visitors/IntersectionsVisitor.cpp -o CMakeFiles/mesher_roi.dir/Visitors/IntersectionsVisitor.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nch/Downloads/Memoria/MesherSharp/src/Visitors/IntersectionsVisitor.cpp -o CMakeFiles/mesher_roi.dir/Visitors/IntersectionsVisitor.cpp.s
 
 CMakeFiles/mesher_roi.dir/Visitors/OneIrregularVisitor.cpp.o: CMakeFiles/mesher_roi.dir/flags.make
 CMakeFiles/mesher_roi.dir/Visitors/OneIrregularVisitor.cpp.o: src/Visitors/OneIrregularVisitor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nch/Downloads/Memoria/MixedOcTree/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object CMakeFiles/mesher_roi.dir/Visitors/OneIrregularVisitor.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesher_roi.dir/Visitors/OneIrregularVisitor.cpp.o -c /home/nch/Downloads/Memoria/MixedOcTree/src/Visitors/OneIrregularVisitor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nch/Downloads/Memoria/MesherSharp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object CMakeFiles/mesher_roi.dir/Visitors/OneIrregularVisitor.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesher_roi.dir/Visitors/OneIrregularVisitor.cpp.o -c /home/nch/Downloads/Memoria/MesherSharp/src/Visitors/OneIrregularVisitor.cpp
 
 CMakeFiles/mesher_roi.dir/Visitors/OneIrregularVisitor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesher_roi.dir/Visitors/OneIrregularVisitor.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nch/Downloads/Memoria/MixedOcTree/src/Visitors/OneIrregularVisitor.cpp > CMakeFiles/mesher_roi.dir/Visitors/OneIrregularVisitor.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nch/Downloads/Memoria/MesherSharp/src/Visitors/OneIrregularVisitor.cpp > CMakeFiles/mesher_roi.dir/Visitors/OneIrregularVisitor.cpp.i
 
 CMakeFiles/mesher_roi.dir/Visitors/OneIrregularVisitor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesher_roi.dir/Visitors/OneIrregularVisitor.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nch/Downloads/Memoria/MixedOcTree/src/Visitors/OneIrregularVisitor.cpp -o CMakeFiles/mesher_roi.dir/Visitors/OneIrregularVisitor.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nch/Downloads/Memoria/MesherSharp/src/Visitors/OneIrregularVisitor.cpp -o CMakeFiles/mesher_roi.dir/Visitors/OneIrregularVisitor.cpp.s
 
 CMakeFiles/mesher_roi.dir/Visitors/TransitionPatternVisitor.cpp.o: CMakeFiles/mesher_roi.dir/flags.make
 CMakeFiles/mesher_roi.dir/Visitors/TransitionPatternVisitor.cpp.o: src/Visitors/TransitionPatternVisitor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nch/Downloads/Memoria/MixedOcTree/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object CMakeFiles/mesher_roi.dir/Visitors/TransitionPatternVisitor.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesher_roi.dir/Visitors/TransitionPatternVisitor.cpp.o -c /home/nch/Downloads/Memoria/MixedOcTree/src/Visitors/TransitionPatternVisitor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nch/Downloads/Memoria/MesherSharp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object CMakeFiles/mesher_roi.dir/Visitors/TransitionPatternVisitor.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesher_roi.dir/Visitors/TransitionPatternVisitor.cpp.o -c /home/nch/Downloads/Memoria/MesherSharp/src/Visitors/TransitionPatternVisitor.cpp
 
 CMakeFiles/mesher_roi.dir/Visitors/TransitionPatternVisitor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesher_roi.dir/Visitors/TransitionPatternVisitor.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nch/Downloads/Memoria/MixedOcTree/src/Visitors/TransitionPatternVisitor.cpp > CMakeFiles/mesher_roi.dir/Visitors/TransitionPatternVisitor.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nch/Downloads/Memoria/MesherSharp/src/Visitors/TransitionPatternVisitor.cpp > CMakeFiles/mesher_roi.dir/Visitors/TransitionPatternVisitor.cpp.i
 
 CMakeFiles/mesher_roi.dir/Visitors/TransitionPatternVisitor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesher_roi.dir/Visitors/TransitionPatternVisitor.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nch/Downloads/Memoria/MixedOcTree/src/Visitors/TransitionPatternVisitor.cpp -o CMakeFiles/mesher_roi.dir/Visitors/TransitionPatternVisitor.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nch/Downloads/Memoria/MesherSharp/src/Visitors/TransitionPatternVisitor.cpp -o CMakeFiles/mesher_roi.dir/Visitors/TransitionPatternVisitor.cpp.s
 
 CMakeFiles/mesher_roi.dir/Visitors/SurfaceTemplatesVisitor.cpp.o: CMakeFiles/mesher_roi.dir/flags.make
 CMakeFiles/mesher_roi.dir/Visitors/SurfaceTemplatesVisitor.cpp.o: src/Visitors/SurfaceTemplatesVisitor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nch/Downloads/Memoria/MixedOcTree/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object CMakeFiles/mesher_roi.dir/Visitors/SurfaceTemplatesVisitor.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesher_roi.dir/Visitors/SurfaceTemplatesVisitor.cpp.o -c /home/nch/Downloads/Memoria/MixedOcTree/src/Visitors/SurfaceTemplatesVisitor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nch/Downloads/Memoria/MesherSharp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object CMakeFiles/mesher_roi.dir/Visitors/SurfaceTemplatesVisitor.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesher_roi.dir/Visitors/SurfaceTemplatesVisitor.cpp.o -c /home/nch/Downloads/Memoria/MesherSharp/src/Visitors/SurfaceTemplatesVisitor.cpp
 
 CMakeFiles/mesher_roi.dir/Visitors/SurfaceTemplatesVisitor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesher_roi.dir/Visitors/SurfaceTemplatesVisitor.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nch/Downloads/Memoria/MixedOcTree/src/Visitors/SurfaceTemplatesVisitor.cpp > CMakeFiles/mesher_roi.dir/Visitors/SurfaceTemplatesVisitor.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nch/Downloads/Memoria/MesherSharp/src/Visitors/SurfaceTemplatesVisitor.cpp > CMakeFiles/mesher_roi.dir/Visitors/SurfaceTemplatesVisitor.cpp.i
 
 CMakeFiles/mesher_roi.dir/Visitors/SurfaceTemplatesVisitor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesher_roi.dir/Visitors/SurfaceTemplatesVisitor.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nch/Downloads/Memoria/MixedOcTree/src/Visitors/SurfaceTemplatesVisitor.cpp -o CMakeFiles/mesher_roi.dir/Visitors/SurfaceTemplatesVisitor.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nch/Downloads/Memoria/MesherSharp/src/Visitors/SurfaceTemplatesVisitor.cpp -o CMakeFiles/mesher_roi.dir/Visitors/SurfaceTemplatesVisitor.cpp.s
 
 CMakeFiles/mesher_roi.dir/Visitors/RemoveSubElementsVisitor.cpp.o: CMakeFiles/mesher_roi.dir/flags.make
 CMakeFiles/mesher_roi.dir/Visitors/RemoveSubElementsVisitor.cpp.o: src/Visitors/RemoveSubElementsVisitor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nch/Downloads/Memoria/MixedOcTree/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building CXX object CMakeFiles/mesher_roi.dir/Visitors/RemoveSubElementsVisitor.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesher_roi.dir/Visitors/RemoveSubElementsVisitor.cpp.o -c /home/nch/Downloads/Memoria/MixedOcTree/src/Visitors/RemoveSubElementsVisitor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nch/Downloads/Memoria/MesherSharp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building CXX object CMakeFiles/mesher_roi.dir/Visitors/RemoveSubElementsVisitor.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesher_roi.dir/Visitors/RemoveSubElementsVisitor.cpp.o -c /home/nch/Downloads/Memoria/MesherSharp/src/Visitors/RemoveSubElementsVisitor.cpp
 
 CMakeFiles/mesher_roi.dir/Visitors/RemoveSubElementsVisitor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesher_roi.dir/Visitors/RemoveSubElementsVisitor.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nch/Downloads/Memoria/MixedOcTree/src/Visitors/RemoveSubElementsVisitor.cpp > CMakeFiles/mesher_roi.dir/Visitors/RemoveSubElementsVisitor.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nch/Downloads/Memoria/MesherSharp/src/Visitors/RemoveSubElementsVisitor.cpp > CMakeFiles/mesher_roi.dir/Visitors/RemoveSubElementsVisitor.cpp.i
 
 CMakeFiles/mesher_roi.dir/Visitors/RemoveSubElementsVisitor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesher_roi.dir/Visitors/RemoveSubElementsVisitor.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nch/Downloads/Memoria/MixedOcTree/src/Visitors/RemoveSubElementsVisitor.cpp -o CMakeFiles/mesher_roi.dir/Visitors/RemoveSubElementsVisitor.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nch/Downloads/Memoria/MesherSharp/src/Visitors/RemoveSubElementsVisitor.cpp -o CMakeFiles/mesher_roi.dir/Visitors/RemoveSubElementsVisitor.cpp.s
 
 CMakeFiles/mesher_roi.dir/Jens/Element.cpp.o: CMakeFiles/mesher_roi.dir/flags.make
 CMakeFiles/mesher_roi.dir/Jens/Element.cpp.o: src/Jens/Element.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nch/Downloads/Memoria/MixedOcTree/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object CMakeFiles/mesher_roi.dir/Jens/Element.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesher_roi.dir/Jens/Element.cpp.o -c /home/nch/Downloads/Memoria/MixedOcTree/src/Jens/Element.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nch/Downloads/Memoria/MesherSharp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object CMakeFiles/mesher_roi.dir/Jens/Element.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesher_roi.dir/Jens/Element.cpp.o -c /home/nch/Downloads/Memoria/MesherSharp/src/Jens/Element.cpp
 
 CMakeFiles/mesher_roi.dir/Jens/Element.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesher_roi.dir/Jens/Element.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nch/Downloads/Memoria/MixedOcTree/src/Jens/Element.cpp > CMakeFiles/mesher_roi.dir/Jens/Element.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nch/Downloads/Memoria/MesherSharp/src/Jens/Element.cpp > CMakeFiles/mesher_roi.dir/Jens/Element.cpp.i
 
 CMakeFiles/mesher_roi.dir/Jens/Element.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesher_roi.dir/Jens/Element.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nch/Downloads/Memoria/MixedOcTree/src/Jens/Element.cpp -o CMakeFiles/mesher_roi.dir/Jens/Element.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nch/Downloads/Memoria/MesherSharp/src/Jens/Element.cpp -o CMakeFiles/mesher_roi.dir/Jens/Element.cpp.s
 
 CMakeFiles/mesher_roi.dir/Jens/Hexahedron.cpp.o: CMakeFiles/mesher_roi.dir/flags.make
 CMakeFiles/mesher_roi.dir/Jens/Hexahedron.cpp.o: src/Jens/Hexahedron.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nch/Downloads/Memoria/MixedOcTree/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building CXX object CMakeFiles/mesher_roi.dir/Jens/Hexahedron.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesher_roi.dir/Jens/Hexahedron.cpp.o -c /home/nch/Downloads/Memoria/MixedOcTree/src/Jens/Hexahedron.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nch/Downloads/Memoria/MesherSharp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building CXX object CMakeFiles/mesher_roi.dir/Jens/Hexahedron.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesher_roi.dir/Jens/Hexahedron.cpp.o -c /home/nch/Downloads/Memoria/MesherSharp/src/Jens/Hexahedron.cpp
 
 CMakeFiles/mesher_roi.dir/Jens/Hexahedron.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesher_roi.dir/Jens/Hexahedron.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nch/Downloads/Memoria/MixedOcTree/src/Jens/Hexahedron.cpp > CMakeFiles/mesher_roi.dir/Jens/Hexahedron.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nch/Downloads/Memoria/MesherSharp/src/Jens/Hexahedron.cpp > CMakeFiles/mesher_roi.dir/Jens/Hexahedron.cpp.i
 
 CMakeFiles/mesher_roi.dir/Jens/Hexahedron.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesher_roi.dir/Jens/Hexahedron.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nch/Downloads/Memoria/MixedOcTree/src/Jens/Hexahedron.cpp -o CMakeFiles/mesher_roi.dir/Jens/Hexahedron.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nch/Downloads/Memoria/MesherSharp/src/Jens/Hexahedron.cpp -o CMakeFiles/mesher_roi.dir/Jens/Hexahedron.cpp.s
 
 CMakeFiles/mesher_roi.dir/Jens/Prism.cpp.o: CMakeFiles/mesher_roi.dir/flags.make
 CMakeFiles/mesher_roi.dir/Jens/Prism.cpp.o: src/Jens/Prism.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nch/Downloads/Memoria/MixedOcTree/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building CXX object CMakeFiles/mesher_roi.dir/Jens/Prism.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesher_roi.dir/Jens/Prism.cpp.o -c /home/nch/Downloads/Memoria/MixedOcTree/src/Jens/Prism.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nch/Downloads/Memoria/MesherSharp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building CXX object CMakeFiles/mesher_roi.dir/Jens/Prism.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesher_roi.dir/Jens/Prism.cpp.o -c /home/nch/Downloads/Memoria/MesherSharp/src/Jens/Prism.cpp
 
 CMakeFiles/mesher_roi.dir/Jens/Prism.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesher_roi.dir/Jens/Prism.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nch/Downloads/Memoria/MixedOcTree/src/Jens/Prism.cpp > CMakeFiles/mesher_roi.dir/Jens/Prism.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nch/Downloads/Memoria/MesherSharp/src/Jens/Prism.cpp > CMakeFiles/mesher_roi.dir/Jens/Prism.cpp.i
 
 CMakeFiles/mesher_roi.dir/Jens/Prism.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesher_roi.dir/Jens/Prism.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nch/Downloads/Memoria/MixedOcTree/src/Jens/Prism.cpp -o CMakeFiles/mesher_roi.dir/Jens/Prism.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nch/Downloads/Memoria/MesherSharp/src/Jens/Prism.cpp -o CMakeFiles/mesher_roi.dir/Jens/Prism.cpp.s
 
 CMakeFiles/mesher_roi.dir/Jens/Pyramid.cpp.o: CMakeFiles/mesher_roi.dir/flags.make
 CMakeFiles/mesher_roi.dir/Jens/Pyramid.cpp.o: src/Jens/Pyramid.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nch/Downloads/Memoria/MixedOcTree/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building CXX object CMakeFiles/mesher_roi.dir/Jens/Pyramid.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesher_roi.dir/Jens/Pyramid.cpp.o -c /home/nch/Downloads/Memoria/MixedOcTree/src/Jens/Pyramid.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nch/Downloads/Memoria/MesherSharp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building CXX object CMakeFiles/mesher_roi.dir/Jens/Pyramid.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesher_roi.dir/Jens/Pyramid.cpp.o -c /home/nch/Downloads/Memoria/MesherSharp/src/Jens/Pyramid.cpp
 
 CMakeFiles/mesher_roi.dir/Jens/Pyramid.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesher_roi.dir/Jens/Pyramid.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nch/Downloads/Memoria/MixedOcTree/src/Jens/Pyramid.cpp > CMakeFiles/mesher_roi.dir/Jens/Pyramid.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nch/Downloads/Memoria/MesherSharp/src/Jens/Pyramid.cpp > CMakeFiles/mesher_roi.dir/Jens/Pyramid.cpp.i
 
 CMakeFiles/mesher_roi.dir/Jens/Pyramid.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesher_roi.dir/Jens/Pyramid.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nch/Downloads/Memoria/MixedOcTree/src/Jens/Pyramid.cpp -o CMakeFiles/mesher_roi.dir/Jens/Pyramid.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nch/Downloads/Memoria/MesherSharp/src/Jens/Pyramid.cpp -o CMakeFiles/mesher_roi.dir/Jens/Pyramid.cpp.s
 
 CMakeFiles/mesher_roi.dir/Jens/Tetrahedron.cpp.o: CMakeFiles/mesher_roi.dir/flags.make
 CMakeFiles/mesher_roi.dir/Jens/Tetrahedron.cpp.o: src/Jens/Tetrahedron.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nch/Downloads/Memoria/MixedOcTree/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building CXX object CMakeFiles/mesher_roi.dir/Jens/Tetrahedron.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesher_roi.dir/Jens/Tetrahedron.cpp.o -c /home/nch/Downloads/Memoria/MixedOcTree/src/Jens/Tetrahedron.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nch/Downloads/Memoria/MesherSharp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building CXX object CMakeFiles/mesher_roi.dir/Jens/Tetrahedron.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesher_roi.dir/Jens/Tetrahedron.cpp.o -c /home/nch/Downloads/Memoria/MesherSharp/src/Jens/Tetrahedron.cpp
 
 CMakeFiles/mesher_roi.dir/Jens/Tetrahedron.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesher_roi.dir/Jens/Tetrahedron.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nch/Downloads/Memoria/MixedOcTree/src/Jens/Tetrahedron.cpp > CMakeFiles/mesher_roi.dir/Jens/Tetrahedron.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nch/Downloads/Memoria/MesherSharp/src/Jens/Tetrahedron.cpp > CMakeFiles/mesher_roi.dir/Jens/Tetrahedron.cpp.i
 
 CMakeFiles/mesher_roi.dir/Jens/Tetrahedron.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesher_roi.dir/Jens/Tetrahedron.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nch/Downloads/Memoria/MixedOcTree/src/Jens/Tetrahedron.cpp -o CMakeFiles/mesher_roi.dir/Jens/Tetrahedron.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nch/Downloads/Memoria/MesherSharp/src/Jens/Tetrahedron.cpp -o CMakeFiles/mesher_roi.dir/Jens/Tetrahedron.cpp.s
 
 CMakeFiles/mesher_roi.dir/Jens/Quality.cpp.o: CMakeFiles/mesher_roi.dir/flags.make
 CMakeFiles/mesher_roi.dir/Jens/Quality.cpp.o: src/Jens/Quality.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nch/Downloads/Memoria/MixedOcTree/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building CXX object CMakeFiles/mesher_roi.dir/Jens/Quality.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesher_roi.dir/Jens/Quality.cpp.o -c /home/nch/Downloads/Memoria/MixedOcTree/src/Jens/Quality.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nch/Downloads/Memoria/MesherSharp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building CXX object CMakeFiles/mesher_roi.dir/Jens/Quality.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesher_roi.dir/Jens/Quality.cpp.o -c /home/nch/Downloads/Memoria/MesherSharp/src/Jens/Quality.cpp
 
 CMakeFiles/mesher_roi.dir/Jens/Quality.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesher_roi.dir/Jens/Quality.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nch/Downloads/Memoria/MixedOcTree/src/Jens/Quality.cpp > CMakeFiles/mesher_roi.dir/Jens/Quality.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nch/Downloads/Memoria/MesherSharp/src/Jens/Quality.cpp > CMakeFiles/mesher_roi.dir/Jens/Quality.cpp.i
 
 CMakeFiles/mesher_roi.dir/Jens/Quality.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesher_roi.dir/Jens/Quality.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nch/Downloads/Memoria/MixedOcTree/src/Jens/Quality.cpp -o CMakeFiles/mesher_roi.dir/Jens/Quality.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nch/Downloads/Memoria/MesherSharp/src/Jens/Quality.cpp -o CMakeFiles/mesher_roi.dir/Jens/Quality.cpp.s
 
 # Object files for target mesher_roi
 mesher_roi_OBJECTS = \
@@ -879,7 +879,7 @@ mesher_roi: CMakeFiles/mesher_roi.dir/Jens/Tetrahedron.cpp.o
 mesher_roi: CMakeFiles/mesher_roi.dir/Jens/Quality.cpp.o
 mesher_roi: CMakeFiles/mesher_roi.dir/build.make
 mesher_roi: CMakeFiles/mesher_roi.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/nch/Downloads/Memoria/MixedOcTree/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Linking CXX executable mesher_roi"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/nch/Downloads/Memoria/MesherSharp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Linking CXX executable mesher_roi"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/mesher_roi.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -892,6 +892,6 @@ CMakeFiles/mesher_roi.dir/clean:
 .PHONY : CMakeFiles/mesher_roi.dir/clean
 
 CMakeFiles/mesher_roi.dir/depend:
-	cd /home/nch/Downloads/Memoria/MixedOcTree && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nch/Downloads/Memoria/MixedOcTree/src /home/nch/Downloads/Memoria/MixedOcTree/src /home/nch/Downloads/Memoria/MixedOcTree /home/nch/Downloads/Memoria/MixedOcTree /home/nch/Downloads/Memoria/MixedOcTree/CMakeFiles/mesher_roi.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/nch/Downloads/Memoria/MesherSharp && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nch/Downloads/Memoria/MesherSharp/src /home/nch/Downloads/Memoria/MesherSharp/src /home/nch/Downloads/Memoria/MesherSharp /home/nch/Downloads/Memoria/MesherSharp /home/nch/Downloads/Memoria/MesherSharp/CMakeFiles/mesher_roi.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/mesher_roi.dir/depend
 
