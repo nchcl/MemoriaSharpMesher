@@ -203,12 +203,14 @@ namespace Clobscode
 
         std::cout << mesh.getElements().size() << "\n";
 
-        for(auto i: mesh.getElements()) {
+        /*for(auto i: mesh.getElements()) {
             for( auto j: i) {
                 std::cout << j << ' ';
             }
             std::cout << "\n";
-        }
+        }*/
+
+        std::cout << points[2] << "\n";
         
         //Write element-octant info the file
         Services::addOctElemntInfo(name,octants,removedoct,octmeshidx);
