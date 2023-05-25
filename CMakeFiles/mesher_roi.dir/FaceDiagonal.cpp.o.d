@@ -1,7 +1,7 @@
 CMakeFiles/mesher_roi.dir/FaceDiagonal.cpp.o: \
- /home/nch/Documents/Memoria\ Debian/Memoria/MesherSharp/src/FaceDiagonal.cpp \
+ /home/nch/Documents/Memoria/MesherSharp/src/FaceDiagonal.cpp \
  /usr/include/stdc-predef.h \
- /home/nch/Documents/Memoria\ Debian/Memoria/MesherSharp/src/FaceDiagonal.h \
+ /home/nch/Documents/Memoria/MesherSharp/src/FaceDiagonal.h \
  /usr/include/c++/12/vector /usr/include/c++/12/bits/stl_algobase.h \
  /usr/include/x86_64-linux-gnu/c++/12/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/12/bits/os_defines.h \

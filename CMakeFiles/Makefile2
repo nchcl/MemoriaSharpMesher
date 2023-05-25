@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/nch/Documents/Memoria Debian/Memoria/MesherSharp/src"
+CMAKE_SOURCE_DIR = /home/nch/Documents/Memoria/MesherSharp/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/nch/Documents/Memoria Debian/Memoria/MesherSharp"
+CMAKE_BINARY_DIR = /home/nch/Documents/Memoria/MesherSharp
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -81,14 +81,14 @@ clean: CMakeFiles/mesher_roi.dir/clean
 CMakeFiles/mesher_roi.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mesher_roi.dir/build.make CMakeFiles/mesher_roi.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mesher_roi.dir/build.make CMakeFiles/mesher_roi.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/nch/Documents/Memoria Debian/Memoria/MesherSharp/CMakeFiles" --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54 "Built target mesher_roi"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/nch/Documents/Memoria/MesherSharp/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54 "Built target mesher_roi"
 .PHONY : CMakeFiles/mesher_roi.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/mesher_roi.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/nch/Documents/Memoria Debian/Memoria/MesherSharp/CMakeFiles" 54
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nch/Documents/Memoria/MesherSharp/CMakeFiles 54
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/mesher_roi.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/nch/Documents/Memoria Debian/Memoria/MesherSharp/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nch/Documents/Memoria/MesherSharp/CMakeFiles 0
 .PHONY : CMakeFiles/mesher_roi.dir/rule
 
 # Convenience name for target.

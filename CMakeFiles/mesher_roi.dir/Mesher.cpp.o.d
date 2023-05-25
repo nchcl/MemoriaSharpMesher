@@ -1,9 +1,9 @@
 CMakeFiles/mesher_roi.dir/Mesher.cpp.o: \
- /home/nch/Documents/Memoria\ Debian/Memoria/MesherSharp/src/Mesher.cpp \
+ /home/nch/Documents/Memoria/MesherSharp/src/Mesher.cpp \
  /usr/include/stdc-predef.h \
- /home/nch/Documents/Memoria\ Debian/Memoria/MesherSharp/src/Mesher.h \
- /home/nch/Documents/Memoria\ Debian/Memoria/MesherSharp/src/TriMesh.h \
- /home/nch/Documents/Memoria\ Debian/Memoria/MesherSharp/src/Point3D.h \
+ /home/nch/Documents/Memoria/MesherSharp/src/Mesher.h \
+ /home/nch/Documents/Memoria/MesherSharp/src/TriMesh.h \
+ /home/nch/Documents/Memoria/MesherSharp/src/Point3D.h \
  /usr/include/c++/12/iostream \
  /usr/include/x86_64-linux-gnu/c++/12/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/12/bits/os_defines.h \
@@ -169,43 +169,43 @@ CMakeFiles/mesher_roi.dir/Mesher.cpp.o: \
  /usr/include/c++/12/bits/stl_vector.h \
  /usr/include/c++/12/bits/stl_bvector.h \
  /usr/include/c++/12/bits/vector.tcc \
- /home/nch/Documents/Memoria\ Debian/Memoria/MesherSharp/src/SurfTriangle.h \
- /home/nch/Documents/Memoria\ Debian/Memoria/MesherSharp/src/SurfEdgeContainer.h \
- /home/nch/Documents/Memoria\ Debian/Memoria/MesherSharp/src/SurfEdge.h \
- /home/nch/Documents/Memoria\ Debian/Memoria/MesherSharp/src/SurfPair.h \
+ /home/nch/Documents/Memoria/MesherSharp/src/SurfTriangle.h \
+ /home/nch/Documents/Memoria/MesherSharp/src/SurfEdgeContainer.h \
+ /home/nch/Documents/Memoria/MesherSharp/src/SurfEdge.h \
+ /home/nch/Documents/Memoria/MesherSharp/src/SurfPair.h \
  /usr/include/c++/12/limits /usr/include/c++/12/set \
  /usr/include/c++/12/bits/stl_tree.h /usr/include/c++/12/bits/stl_set.h \
  /usr/include/c++/12/bits/stl_multiset.h \
  /usr/include/c++/12/bits/erase_if.h \
- /home/nch/Documents/Memoria\ Debian/Memoria/MesherSharp/src/FEMesh.h \
- /home/nch/Documents/Memoria\ Debian/Memoria/MesherSharp/src/GridMesher.h \
- /home/nch/Documents/Memoria\ Debian/Memoria/MesherSharp/src/MeshPoint.h \
- /home/nch/Documents/Memoria\ Debian/Memoria/MesherSharp/src/Octant.h \
- /home/nch/Documents/Memoria\ Debian/Memoria/MesherSharp/src/Visitors/Visitor.h \
- /home/nch/Documents/Memoria\ Debian/Memoria/MesherSharp/src/OctreeEdge.h \
- /home/nch/Documents/Memoria\ Debian/Memoria/MesherSharp/src/Services.h \
+ /home/nch/Documents/Memoria/MesherSharp/src/FEMesh.h \
+ /home/nch/Documents/Memoria/MesherSharp/src/GridMesher.h \
+ /home/nch/Documents/Memoria/MesherSharp/src/MeshPoint.h \
+ /home/nch/Documents/Memoria/MesherSharp/src/Octant.h \
+ /home/nch/Documents/Memoria/MesherSharp/src/Visitors/Visitor.h \
+ /home/nch/Documents/Memoria/MesherSharp/src/OctreeEdge.h \
+ /home/nch/Documents/Memoria/MesherSharp/src/Services.h \
  /usr/include/string.h /usr/include/strings.h \
- /home/nch/Documents/Memoria\ Debian/Memoria/MesherSharp/src/RefinementCubeRegion.h \
- /home/nch/Documents/Memoria\ Debian/Memoria/MesherSharp/src/RefinementRegion.h \
- /home/nch/Documents/Memoria\ Debian/Memoria/MesherSharp/src/GeometricTransform.h \
- /home/nch/Documents/Memoria\ Debian/Memoria/MesherSharp/src/RefinementSurfaceRegion.h \
- /home/nch/Documents/Memoria\ Debian/Memoria/MesherSharp/src/RefinementInputSurfaceRegion.h \
- /home/nch/Documents/Memoria\ Debian/Memoria/MesherSharp/src/RefinementAllRegion.h \
- /home/nch/Documents/Memoria\ Debian/Memoria/MesherSharp/src/FaceContainer.h \
- /home/nch/Documents/Memoria\ Debian/Memoria/MesherSharp/src/Face.h \
+ /home/nch/Documents/Memoria/MesherSharp/src/RefinementCubeRegion.h \
+ /home/nch/Documents/Memoria/MesherSharp/src/RefinementRegion.h \
+ /home/nch/Documents/Memoria/MesherSharp/src/GeometricTransform.h \
+ /home/nch/Documents/Memoria/MesherSharp/src/RefinementSurfaceRegion.h \
+ /home/nch/Documents/Memoria/MesherSharp/src/RefinementInputSurfaceRegion.h \
+ /home/nch/Documents/Memoria/MesherSharp/src/RefinementAllRegion.h \
+ /home/nch/Documents/Memoria/MesherSharp/src/FaceContainer.h \
+ /home/nch/Documents/Memoria/MesherSharp/src/Face.h \
  /usr/include/c++/12/fstream /usr/include/c++/12/bits/codecvt.h \
  /usr/include/x86_64-linux-gnu/c++/12/bits/basic_file.h \
  /usr/include/x86_64-linux-gnu/c++/12/bits/c++io.h \
  /usr/include/c++/12/bits/fstream.tcc \
- /home/nch/Documents/Memoria\ Debian/Memoria/MesherSharp/src/Visitors/EdgeVisitor.h \
- /home/nch/Documents/Memoria\ Debian/Memoria/MesherSharp/src/Visitors/../OctreeEdge.h \
- /home/nch/Documents/Memoria\ Debian/Memoria/MesherSharp/src/Visitors/../Point3D.h \
- /home/nch/Documents/Memoria\ Debian/Memoria/MesherSharp/src/Visitors/../EdgeInfo.h \
+ /home/nch/Documents/Memoria/MesherSharp/src/Visitors/EdgeVisitor.h \
+ /home/nch/Documents/Memoria/MesherSharp/src/Visitors/../OctreeEdge.h \
+ /home/nch/Documents/Memoria/MesherSharp/src/Visitors/../Point3D.h \
+ /home/nch/Documents/Memoria/MesherSharp/src/Visitors/../EdgeInfo.h \
  /usr/include/c++/12/map /usr/include/c++/12/bits/stl_map.h \
  /usr/include/c++/12/tuple /usr/include/c++/12/bits/uses_allocator.h \
  /usr/include/c++/12/bits/stl_multimap.h \
- /home/nch/Documents/Memoria\ Debian/Memoria/MesherSharp/src/Visitors/Visitor.h \
- /home/nch/Documents/Memoria\ Debian/Memoria/MesherSharp/src/EdgeInfo.h \
+ /home/nch/Documents/Memoria/MesherSharp/src/Visitors/Visitor.h \
+ /home/nch/Documents/Memoria/MesherSharp/src/EdgeInfo.h \
  /usr/include/c++/12/stdlib.h /usr/include/c++/12/memory \
  /usr/include/c++/12/bits/stl_tempbuf.h \
  /usr/include/c++/12/bits/stl_raw_storage_iter.h \
@@ -218,42 +218,55 @@ CMakeFiles/mesher_roi.dir/Mesher.cpp.o: \
  /usr/include/c++/12/bits/atomic_base.h \
  /usr/include/c++/12/bits/atomic_lockfree_defines.h \
  /usr/include/c++/12/backward/auto_ptr.h \
- /home/nch/Documents/Memoria\ Debian/Memoria/MesherSharp/src/Visitors/SplitVisitor.h \
- /home/nch/Documents/Memoria\ Debian/Memoria/MesherSharp/src/Visitors/../MeshPoint.h \
- /home/nch/Documents/Memoria\ Debian/Memoria/MesherSharp/src/Visitors/IntersectionsVisitor.h \
- /home/nch/Documents/Memoria\ Debian/Memoria/MesherSharp/src/Visitors/../SurfTriangle.h \
- /home/nch/Documents/Memoria\ Debian/Memoria/MesherSharp/src/Visitors/../TriMesh.h \
- /home/nch/Documents/Memoria\ Debian/Memoria/MesherSharp/src/Visitors/TransitionPatternVisitor.h \
- /home/nch/Documents/Memoria\ Debian/Memoria/MesherSharp/src/Visitors/../TransitionTemplate.h \
+ /home/nch/Documents/Memoria/MesherSharp/src/Visitors/SplitVisitor.h \
+ /home/nch/Documents/Memoria/MesherSharp/src/Visitors/../MeshPoint.h \
+ /home/nch/Documents/Memoria/MesherSharp/src/Visitors/IntersectionsVisitor.h \
+ /home/nch/Documents/Memoria/MesherSharp/src/Visitors/../SurfTriangle.h \
+ /home/nch/Documents/Memoria/MesherSharp/src/Visitors/../TriMesh.h \
+ /home/nch/Documents/Memoria/MesherSharp/src/Visitors/TransitionPatternVisitor.h \
+ /home/nch/Documents/Memoria/MesherSharp/src/Visitors/../TransitionTemplate.h \
  /usr/include/c++/12/bitset \
- /home/nch/Documents/Memoria\ Debian/Memoria/MesherSharp/src/Visitors/../TransitionCube.h \
- /home/nch/Documents/Memoria\ Debian/Memoria/MesherSharp/src/Visitors/../TransitionPoint.h \
- /home/nch/Documents/Memoria\ Debian/Memoria/MesherSharp/src/Visitors/../PatternFactory.h \
- /home/nch/Documents/Memoria\ Debian/Memoria/MesherSharp/src/Visitors/../MeshPoint.h \
- /home/nch/Documents/Memoria\ Debian/Memoria/MesherSharp/src/Visitors/../Point3D.h \
- /home/nch/Documents/Memoria\ Debian/Memoria/MesherSharp/src/Visitors/EdgeVisitor.h \
- /home/nch/Documents/Memoria\ Debian/Memoria/MesherSharp/src/Visitors/SurfaceTemplatesVisitor.h \
- /home/nch/Documents/Memoria\ Debian/Memoria/MesherSharp/src/Visitors/../SurfTemplate1.h \
- /home/nch/Documents/Memoria\ Debian/Memoria/MesherSharp/src/Visitors/../HexRotation.h \
- /home/nch/Documents/Memoria\ Debian/Memoria/MesherSharp/src/Visitors/../SurfTemplate2.h \
- /home/nch/Documents/Memoria\ Debian/Memoria/MesherSharp/src/Visitors/../SurfTemplate3.h \
- /home/nch/Documents/Memoria\ Debian/Memoria/MesherSharp/src/Visitors/../SurfTemplate4.h \
- /home/nch/Documents/Memoria\ Debian/Memoria/MesherSharp/src/Visitors/../SurfTemplate5.h \
- /home/nch/Documents/Memoria\ Debian/Memoria/MesherSharp/src/Visitors/../TriMesh.h \
- /home/nch/Documents/Memoria\ Debian/Memoria/MesherSharp/src/Visitors/../SurfTemplate6.h \
- /home/nch/Documents/Memoria\ Debian/Memoria/MesherSharp/src/Visitors/../SurfTemplate7.h \
- /home/nch/Documents/Memoria\ Debian/Memoria/MesherSharp/src/Visitors/../SurfPrism.h \
- /home/nch/Documents/Memoria\ Debian/Memoria/MesherSharp/src/Visitors/../FaceDiagonal.h \
- /home/nch/Documents/Memoria\ Debian/Memoria/MesherSharp/src/Visitors/../SurfPyramid.h \
- /home/nch/Documents/Memoria\ Debian/Memoria/MesherSharp/src/Visitors/../SurfTetrahedron.h \
- /home/nch/Documents/Memoria\ Debian/Memoria/MesherSharp/src/Visitors/../SurfHexahedron.h \
- /home/nch/Documents/Memoria\ Debian/Memoria/MesherSharp/src/Visitors/../SurfTemplate1.h \
- /home/nch/Documents/Memoria\ Debian/Memoria/MesherSharp/src/Visitors/../SurfTemplate2.h \
- /home/nch/Documents/Memoria\ Debian/Memoria/MesherSharp/src/Visitors/../SurfTemplate3.h \
- /home/nch/Documents/Memoria\ Debian/Memoria/MesherSharp/src/Visitors/../SurfTemplate4.h \
- /home/nch/Documents/Memoria\ Debian/Memoria/MesherSharp/src/Visitors/../SurfTemplate5.h \
- /home/nch/Documents/Memoria\ Debian/Memoria/MesherSharp/src/Visitors/../SurfTemplate6.h \
- /home/nch/Documents/Memoria\ Debian/Memoria/MesherSharp/src/Visitors/../SurfTemplate7.h \
- /home/nch/Documents/Memoria\ Debian/Memoria/MesherSharp/src/Visitors/RemoveSubElementsVisitor.h \
- /home/nch/Documents/Memoria\ Debian/Memoria/MesherSharp/src/Visitors/OneIrregularVisitor.h \
- /usr/include/c++/12/ctime
+ /home/nch/Documents/Memoria/MesherSharp/src/Visitors/../TransitionCube.h \
+ /home/nch/Documents/Memoria/MesherSharp/src/Visitors/../TransitionPoint.h \
+ /home/nch/Documents/Memoria/MesherSharp/src/Visitors/../PatternFactory.h \
+ /home/nch/Documents/Memoria/MesherSharp/src/Visitors/../MeshPoint.h \
+ /home/nch/Documents/Memoria/MesherSharp/src/Visitors/../Point3D.h \
+ /home/nch/Documents/Memoria/MesherSharp/src/Visitors/EdgeVisitor.h \
+ /home/nch/Documents/Memoria/MesherSharp/src/Visitors/SurfaceTemplatesVisitor.h \
+ /home/nch/Documents/Memoria/MesherSharp/src/Visitors/../SurfTemplate1.h \
+ /home/nch/Documents/Memoria/MesherSharp/src/Visitors/../HexRotation.h \
+ /home/nch/Documents/Memoria/MesherSharp/src/Visitors/../SurfTemplate2.h \
+ /home/nch/Documents/Memoria/MesherSharp/src/Visitors/../SurfTemplate3.h \
+ /home/nch/Documents/Memoria/MesherSharp/src/Visitors/../SurfTemplate4.h \
+ /home/nch/Documents/Memoria/MesherSharp/src/Visitors/../SurfTemplate5.h \
+ /home/nch/Documents/Memoria/MesherSharp/src/Visitors/../TriMesh.h \
+ /home/nch/Documents/Memoria/MesherSharp/src/Visitors/../SurfTemplate6.h \
+ /home/nch/Documents/Memoria/MesherSharp/src/Visitors/../SurfTemplate7.h \
+ /home/nch/Documents/Memoria/MesherSharp/src/Visitors/../SurfPrism.h \
+ /home/nch/Documents/Memoria/MesherSharp/src/Visitors/../FaceDiagonal.h \
+ /home/nch/Documents/Memoria/MesherSharp/src/Visitors/../SurfPyramid.h \
+ /home/nch/Documents/Memoria/MesherSharp/src/Visitors/../SurfTetrahedron.h \
+ /home/nch/Documents/Memoria/MesherSharp/src/Visitors/../SurfHexahedron.h \
+ /home/nch/Documents/Memoria/MesherSharp/src/Visitors/../SurfTemplate1.h \
+ /home/nch/Documents/Memoria/MesherSharp/src/Visitors/../SurfTemplate2.h \
+ /home/nch/Documents/Memoria/MesherSharp/src/Visitors/../SurfTemplate3.h \
+ /home/nch/Documents/Memoria/MesherSharp/src/Visitors/../SurfTemplate4.h \
+ /home/nch/Documents/Memoria/MesherSharp/src/Visitors/../SurfTemplate5.h \
+ /home/nch/Documents/Memoria/MesherSharp/src/Visitors/../SurfTemplate6.h \
+ /home/nch/Documents/Memoria/MesherSharp/src/Visitors/../SurfTemplate7.h \
+ /home/nch/Documents/Memoria/MesherSharp/src/Visitors/RemoveSubElementsVisitor.h \
+ /home/nch/Documents/Memoria/MesherSharp/src/Visitors/OneIrregularVisitor.h \
+ /usr/include/c++/12/ctime \
+ /home/nch/Documents/Memoria/MesherSharp/src/Jens/Element.h \
+ /home/nch/Documents/Memoria/MesherSharp/src/Jens/../Point3D.h \
+ /home/nch/Documents/Memoria/MesherSharp/src/Jens/Tetrahedron.h \
+ /home/nch/Documents/Memoria/MesherSharp/src/Jens/Element.h \
+ /home/nch/Documents/Memoria/MesherSharp/src/Jens/Hexahedron.h \
+ /home/nch/Documents/Memoria/MesherSharp/src/Jens/Prism.h \
+ /home/nch/Documents/Memoria/MesherSharp/src/Jens/Pyramid.h \
+ /home/nch/Documents/Memoria/MesherSharp/src/Jens/Quality.h \
+ /home/nch/Documents/Memoria/MesherSharp/src/Jens/Hexahedron.h \
+ /home/nch/Documents/Memoria/MesherSharp/src/Jens/Prism.h \
+ /home/nch/Documents/Memoria/MesherSharp/src/Jens/Pyramid.h \
+ /home/nch/Documents/Memoria/MesherSharp/src/Jens/Tetrahedron.h \
+ /home/nch/Documents/Memoria/MesherSharp/src/Jens/Point3D.h

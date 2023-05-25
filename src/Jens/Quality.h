@@ -54,6 +54,8 @@ public:
     virtual void execute_allAR(vector<Point3D> &points, vector<Element *> &elements);
 
     virtual void execute_allJENS(vector<Point3D> &points, vector<Element *> &elements);
+
+    virtual vector<Element *> allJENS_sharp(vector<Point3D> &p, vector<Element *> &e);
     
 };
 

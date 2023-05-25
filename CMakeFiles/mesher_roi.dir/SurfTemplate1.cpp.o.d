@@ -1,7 +1,7 @@
 CMakeFiles/mesher_roi.dir/SurfTemplate1.cpp.o: \
- /home/nch/Documents/Memoria\ Debian/Memoria/MesherSharp/src/SurfTemplate1.cpp \
+ /home/nch/Documents/Memoria/MesherSharp/src/SurfTemplate1.cpp \
  /usr/include/stdc-predef.h \
- /home/nch/Documents/Memoria\ Debian/Memoria/MesherSharp/src/SurfTemplate1.h \
+ /home/nch/Documents/Memoria/MesherSharp/src/SurfTemplate1.h \
  /usr/include/c++/12/vector /usr/include/c++/12/bits/stl_algobase.h \
  /usr/include/x86_64-linux-gnu/c++/12/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/12/bits/os_defines.h \
@@ -46,4 +46,4 @@ CMakeFiles/mesher_roi.dir/SurfTemplate1.cpp.o: \
  /usr/include/c++/12/backward/binders.h \
  /usr/include/c++/12/bits/range_access.h \
  /usr/include/c++/12/bits/vector.tcc \
- /home/nch/Documents/Memoria\ Debian/Memoria/MesherSharp/src/HexRotation.h
+ /home/nch/Documents/Memoria/MesherSharp/src/HexRotation.h

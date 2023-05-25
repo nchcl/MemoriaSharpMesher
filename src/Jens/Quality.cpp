@@ -495,3 +495,26 @@ void Quality::execute_allAR(vector<Point3D> &p, vector<Element *> &e){
     }
 }
 
+//--------------------------------------------------------------------------
+//--------------------------------------------------------------------------
+vector<Element *> Quality::allJENS_sharp(vector<Point3D> &p, vector<Element *> &e){
+    vector<Element *> negativeElements;
+    unsigned int negativecounter = 0;
+    
+    for (unsigned int i=0; i<e.size(); i++) {
+        vector<double> jens = e[i]->getJENS(p);
+        vector<unsigned int> epts = e[i]->getPoints();
+        
+        for (unsigned int j=0; j<jens.size(); j++) {
+            if(jens[j] < 0) {
+                negativecounter++;
+                negativeElements.push_back(e[i]);
+                continue;
+            }
+        }
+
+    }
+    std::cout << "Negative elements: " << negativecounter << "\n";
+    return negativeElements;
+}
+

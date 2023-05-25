@@ -1,3 +1,0 @@
-/home/nch/Downloads/Memoria/MesherSharp/build/CMakeFiles/rebuild_cache.dir
-/home/nch/Downloads/Memoria/MesherSharp/build/CMakeFiles/edit_cache.dir
-/home/nch/Downloads/Memoria/MesherSharp/build/CMakeFiles/mesher_roi.dir

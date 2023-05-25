@@ -1,8 +1,8 @@
 CMakeFiles/mesher_roi.dir/TriMesh.cpp.o: \
- /home/nch/Documents/Memoria\ Debian/Memoria/MesherSharp/src/TriMesh.cpp \
+ /home/nch/Documents/Memoria/MesherSharp/src/TriMesh.cpp \
  /usr/include/stdc-predef.h \
- /home/nch/Documents/Memoria\ Debian/Memoria/MesherSharp/src/TriMesh.h \
- /home/nch/Documents/Memoria\ Debian/Memoria/MesherSharp/src/Point3D.h \
+ /home/nch/Documents/Memoria/MesherSharp/src/TriMesh.h \
+ /home/nch/Documents/Memoria/MesherSharp/src/Point3D.h \
  /usr/include/c++/12/iostream \
  /usr/include/x86_64-linux-gnu/c++/12/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/12/bits/os_defines.h \
@@ -168,10 +168,10 @@ CMakeFiles/mesher_roi.dir/TriMesh.cpp.o: \
  /usr/include/c++/12/bits/stl_vector.h \
  /usr/include/c++/12/bits/stl_bvector.h \
  /usr/include/c++/12/bits/vector.tcc \
- /home/nch/Documents/Memoria\ Debian/Memoria/MesherSharp/src/SurfTriangle.h \
- /home/nch/Documents/Memoria\ Debian/Memoria/MesherSharp/src/SurfEdgeContainer.h \
- /home/nch/Documents/Memoria\ Debian/Memoria/MesherSharp/src/SurfEdge.h \
- /home/nch/Documents/Memoria\ Debian/Memoria/MesherSharp/src/SurfPair.h \
+ /home/nch/Documents/Memoria/MesherSharp/src/SurfTriangle.h \
+ /home/nch/Documents/Memoria/MesherSharp/src/SurfEdgeContainer.h \
+ /home/nch/Documents/Memoria/MesherSharp/src/SurfEdge.h \
+ /home/nch/Documents/Memoria/MesherSharp/src/SurfPair.h \
  /usr/include/c++/12/limits /usr/include/c++/12/set \
  /usr/include/c++/12/bits/stl_tree.h /usr/include/c++/12/bits/stl_set.h \
  /usr/include/c++/12/bits/stl_multiset.h \

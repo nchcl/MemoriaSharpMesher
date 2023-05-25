@@ -1,7 +1,7 @@
 CMakeFiles/mesher_roi.dir/TransitionTemplate.cpp.o: \
- /home/nch/Documents/Memoria\ Debian/Memoria/MesherSharp/src/TransitionTemplate.cpp \
+ /home/nch/Documents/Memoria/MesherSharp/src/TransitionTemplate.cpp \
  /usr/include/stdc-predef.h \
- /home/nch/Documents/Memoria\ Debian/Memoria/MesherSharp/src/TransitionTemplate.h \
+ /home/nch/Documents/Memoria/MesherSharp/src/TransitionTemplate.h \
  /usr/include/c++/12/iostream \
  /usr/include/x86_64-linux-gnu/c++/12/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/12/bits/os_defines.h \
@@ -160,9 +160,9 @@ CMakeFiles/mesher_roi.dir/TransitionTemplate.cpp.o: \
  /usr/include/c++/12/tuple /usr/include/c++/12/bits/uses_allocator.h \
  /usr/include/c++/12/bits/stl_multimap.h \
  /usr/include/c++/12/bits/erase_if.h /usr/include/c++/12/bitset \
- /home/nch/Documents/Memoria\ Debian/Memoria/MesherSharp/src/TransitionCube.h \
+ /home/nch/Documents/Memoria/MesherSharp/src/TransitionCube.h \
  /usr/include/c++/12/sstream /usr/include/c++/12/bits/sstream.tcc \
- /home/nch/Documents/Memoria\ Debian/Memoria/MesherSharp/src/TransitionPoint.h \
+ /home/nch/Documents/Memoria/MesherSharp/src/TransitionPoint.h \
  /usr/include/c++/12/math.h /usr/include/c++/12/cmath /usr/include/math.h \
  /usr/include/x86_64-linux-gnu/bits/math-vector.h \
  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
@@ -173,6 +173,6 @@ CMakeFiles/mesher_roi.dir/TransitionTemplate.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
  /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h \
  /usr/include/x86_64-linux-gnu/bits/iscanonical.h \
- /home/nch/Documents/Memoria\ Debian/Memoria/MesherSharp/src/PatternFactory.h \
- /home/nch/Documents/Memoria\ Debian/Memoria/MesherSharp/src/MeshPoint.h \
- /home/nch/Documents/Memoria\ Debian/Memoria/MesherSharp/src/Point3D.h
+ /home/nch/Documents/Memoria/MesherSharp/src/PatternFactory.h \
+ /home/nch/Documents/Memoria/MesherSharp/src/MeshPoint.h \
+ /home/nch/Documents/Memoria/MesherSharp/src/Point3D.h

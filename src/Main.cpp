@@ -31,7 +31,6 @@
 #include <cctype>
 #include <time.h>
 #include <chrono>
-#include "Jens/Hexahedron.h"
 
 using std::atoi;
 using std::cout;

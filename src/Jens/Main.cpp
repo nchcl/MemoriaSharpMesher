@@ -31,7 +31,7 @@
 #ifndef Main_h
 #define Main_h 1
 
-#include <string>
+#include <string.h>
 #include <cctype>
 #include <iostream>
 #include "Point3D.h"

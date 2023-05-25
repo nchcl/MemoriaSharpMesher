@@ -1,7 +1,7 @@
 CMakeFiles/mesher_roi.dir/SurfEdge.cpp.o: \
- /home/nch/Documents/Memoria\ Debian/Memoria/MesherSharp/src/SurfEdge.cpp \
+ /home/nch/Documents/Memoria/MesherSharp/src/SurfEdge.cpp \
  /usr/include/stdc-predef.h \
- /home/nch/Documents/Memoria\ Debian/Memoria/MesherSharp/src/SurfEdge.h \
+ /home/nch/Documents/Memoria/MesherSharp/src/SurfEdge.h \
  /usr/include/c++/12/iostream \
  /usr/include/x86_64-linux-gnu/c++/12/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/12/bits/os_defines.h \

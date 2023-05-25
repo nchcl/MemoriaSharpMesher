@@ -1,7 +1,7 @@
 CMakeFiles/mesher_roi.dir/Point3D.cpp.o: \
- /home/nch/Documents/Memoria\ Debian/Memoria/MesherSharp/src/Point3D.cpp \
+ /home/nch/Documents/Memoria/MesherSharp/src/Point3D.cpp \
  /usr/include/stdc-predef.h \
- /home/nch/Documents/Memoria\ Debian/Memoria/MesherSharp/src/Point3D.h \
+ /home/nch/Documents/Memoria/MesherSharp/src/Point3D.h \
  /usr/include/c++/12/iostream \
  /usr/include/x86_64-linux-gnu/c++/12/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/12/bits/os_defines.h \

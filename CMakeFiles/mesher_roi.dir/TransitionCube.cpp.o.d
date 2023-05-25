@@ -1,5 +1,5 @@
 CMakeFiles/mesher_roi.dir/TransitionCube.cpp.o: \
- /home/nch/Documents/Memoria\ Debian/Memoria/MesherSharp/src/TransitionCube.cpp \
+ /home/nch/Documents/Memoria/MesherSharp/src/TransitionCube.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/12/math.h \
  /usr/include/c++/12/cmath \
  /usr/include/x86_64-linux-gnu/c++/12/bits/c++config.h \
@@ -78,7 +78,7 @@ CMakeFiles/mesher_roi.dir/TransitionCube.cpp.o: \
  /usr/include/c++/12/bits/stl_construct.h /usr/include/c++/12/new \
  /usr/include/c++/12/bits/exception.h \
  /usr/include/c++/12/bits/uniform_int_dist.h /usr/include/c++/12/cstdlib \
- /home/nch/Documents/Memoria\ Debian/Memoria/MesherSharp/src/TransitionCube.h \
+ /home/nch/Documents/Memoria/MesherSharp/src/TransitionCube.h \
  /usr/include/c++/12/vector /usr/include/c++/12/bits/allocator.h \
  /usr/include/x86_64-linux-gnu/c++/12/bits/c++allocator.h \
  /usr/include/c++/12/bits/new_allocator.h \
@@ -171,4 +171,4 @@ CMakeFiles/mesher_roi.dir/TransitionCube.cpp.o: \
  /usr/include/c++/12/bits/ostream.tcc /usr/include/c++/12/istream \
  /usr/include/c++/12/bits/istream.tcc /usr/include/c++/12/sstream \
  /usr/include/c++/12/bits/sstream.tcc \
- /home/nch/Documents/Memoria\ Debian/Memoria/MesherSharp/src/TransitionPoint.h
+ /home/nch/Documents/Memoria/MesherSharp/src/TransitionPoint.h

@@ -19,6 +19,12 @@
 
 #include "Mesher.h"
 #include <math.h>
+#include "Jens/Element.h"
+#include "Jens/Tetrahedron.h"
+#include "Jens/Hexahedron.h"
+#include "Jens/Prism.h"
+#include "Jens/Pyramid.h"
+#include "Jens/Quality.h"
 
 namespace Clobscode
 {
@@ -168,14 +174,19 @@ namespace Clobscode
         projectCloseToBoundaryNodes(input);
    		removeOnSurface();
 		
+        //new
+        
         detectInsideNodes(input);
         linkElementsToNodes();
         shrinkToBoundary(input);
-        
         //Quality (JENS)
         
+        //end new
+        
+        //old
+        /*
 		//apply the surface Patterns
-		/*applySurfacePatterns(input);
+		applySurfacePatterns(input);
         removeOnSurface();
 
         
@@ -193,25 +204,66 @@ namespace Clobscode
             for (unsigned int i=0; i<points.size(); i++) {
                 gt.applyInverse(points[i].getPoint());
             }
-        } */
-		
+        } 
+		*/
+        //end old
+
         //the almighty output mesh
         FEMesh mesh;
         
 		//save the data of the mesh in its final state
 		saveOutputMesh(mesh);
 
-        std::cout << mesh.getElements().size() << "\n";
+        vector<Element*> octelements;
+        std::cout << "Using Element vector" << "\n";
+        for(auto i: octants) {
+            if (i.isInside()) { continue;}
+            for( auto j: i.getSubElements()) {
+                if (j.size() == 8) {
+                    vector<int> unsignedToint(std::begin(j), std::end(j));
+                    octelements.push_back(new Hexahedron(unsignedToint)); 
+                }
+                else if(j.size() == 6) {
+                    vector<int> unsignedToint(std::begin(j), std::end(j));
+                    octelements.push_back(new Prism(unsignedToint)); 
+                }
+                else if(j.size() == 5) {
+                    vector<int> unsignedToint(std::begin(j), std::end(j));
+                    octelements.push_back(new Pyramid(unsignedToint)); 
+                }
+                else if(j.size() == 4) {
+                    vector<int> unsignedToint(std::begin(j), std::end(j));
+                    octelements.push_back(new Tetrahedron(unsignedToint)); 
+                }
 
-        /*for(auto i: mesh.getElements()) {
-            for( auto j: i) {
-                std::cout << j << ' ';
+                //for( auto k: j) {std::cout << k << ' ';}
+            }
+            //std::cout << "\n";
+        }
+
+        vector<Point3D> octpoints;
+        for(auto i: points) {
+            octpoints.push_back(
+                i.getPoint()
+            );
+        }
+
+        Quality quality;
+        //quality.execute_allJENS(octpoints, octelements);
+        vector<Element *> negativeElements = quality.allJENS_sharp(octpoints, octelements);
+        std::cout << "Negative recheck: " << negativeElements.size() << "\n";
+        if(negativeElements.size() > 0) {
+            vector<double> samplejens = negativeElements[0]->getJENS(octpoints);
+            std::cout << "Sample negative JENS: ";
+            for(auto i: samplejens) {
+                std::cout << i << " ";
             }
             std::cout << "\n";
-        }*/
+        }
 
-        std::cout << points[2] << "\n";
-        
+        std::cout << "Total elements including inside oct: " << octants.size() << "\n";
+        std::cout << "Size octelements vector: " << octelements.size() << "\n";
+
         //Write element-octant info the file
         Services::addOctElemntInfo(name,octants,removedoct,octmeshidx);
         

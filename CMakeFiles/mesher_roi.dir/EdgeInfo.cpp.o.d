@@ -1,7 +1,7 @@
 CMakeFiles/mesher_roi.dir/EdgeInfo.cpp.o: \
- /home/nch/Documents/Memoria\ Debian/Memoria/MesherSharp/src/EdgeInfo.cpp \
+ /home/nch/Documents/Memoria/MesherSharp/src/EdgeInfo.cpp \
  /usr/include/stdc-predef.h \
- /home/nch/Documents/Memoria\ Debian/Memoria/MesherSharp/src/EdgeInfo.h \
+ /home/nch/Documents/Memoria/MesherSharp/src/EdgeInfo.h \
  /usr/include/c++/12/iostream \
  /usr/include/x86_64-linux-gnu/c++/12/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/12/bits/os_defines.h \
