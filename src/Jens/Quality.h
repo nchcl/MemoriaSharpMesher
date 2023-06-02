@@ -55,7 +55,9 @@ public:
 
     virtual void execute_allJENS(vector<Point3D> &points, vector<Element *> &elements);
 
-    virtual vector<Element *> allJENS_sharp(vector<Point3D> &p, vector<Element *> &e);
+    virtual vector<Element *> allJENS_sharp(vector<Point3D> &p, vector<Element *> &e, float tol);
+
+    virtual vector<unsigned int> allJENS_sharp_points(vector<Point3D> &p, vector<Element *> &e, float tol);
     
 };
 

@@ -25,6 +25,8 @@
 #include "Jens/Prism.h"
 #include "Jens/Pyramid.h"
 #include "Jens/Quality.h"
+#include <algorithm>
+vector<unsigned int> badPointsVector;
 
 namespace Clobscode
 {
@@ -249,8 +251,9 @@ namespace Clobscode
         }
 
         Quality quality;
-        //quality.execute_allJENS(octpoints, octelements);
-        vector<Element *> negativeElements = quality.allJENS_sharp(octpoints, octelements);
+        /*
+        quality.execute_allJENS(octpoints, octelements);
+        vector<Element *> negativeElements = quality.allJENS_sharp(octpoints, octelements, 0);
         std::cout << "Negative recheck: " << negativeElements.size() << "\n";
         if(negativeElements.size() > 0) {
             vector<double> samplejens = negativeElements[0]->getJENS(octpoints);
@@ -260,6 +263,21 @@ namespace Clobscode
             }
             std::cout << "\n";
         }
+        */
+
+        badPointsVector = quality.allJENS_sharp_points(octpoints, octelements, 0);
+        list<unsigned int> badPointsList;
+        std::copy(badPointsVector.begin(), badPointsVector.end(), std::back_inserter(badPointsList));
+
+        std::cout << "Negative recheck: " << badPointsList.size() << "\n";
+
+        badPointsList.sort();
+        badPointsList.unique();
+        badPointsVector.clear();
+        badPointsVector = { std::make_move_iterator(std::begin(badPointsList)), 
+                         std::make_move_iterator(std::end(badPointsList)) };
+        
+        std::cout << "Negative after removing dups: " << badPointsVector.size() << "\n";
 
         std::cout << "Total elements including inside oct: " << octants.size() << "\n";
         std::cout << "Size octelements vector: " << octelements.size() << "\n";
@@ -1494,6 +1512,19 @@ namespace Clobscode
             
             
 			if (octants[i].isSurface()) {
+                //new
+                for( auto j: octants[i].getSubElements()) {
+                    for( auto k: j) {
+                        if ( std::find(badPointsVector.begin(), badPointsVector.end(), k) != badPointsVector.end() ) {
+                            cout << "TEST SUCCESFULL\n";
+                        }
+                       
+                    }
+                }
+
+
+
+                //end new
                 stv.setNewPoints(tmppts);
                 stv.setIdx(i);
 				if (!octants[i].accept(&stv)) {
