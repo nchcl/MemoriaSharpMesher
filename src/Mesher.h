@@ -125,7 +125,7 @@ namespace Clobscode
         
         virtual void projectCloseToBoundaryNodes(TriMesh &input);
 
-
+        virtual void elementsJENS();
 		
 	protected:
 		

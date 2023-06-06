@@ -131,6 +131,9 @@ namespace Clobscode
 		friend Point3D operator/(double div, const Point3D &p);
 		
 		friend Point3D operator*(double mul, const Point3D &p);
+
+		//new
+		bool qualityTol = true;
 		
 	protected:
 		

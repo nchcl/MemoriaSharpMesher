@@ -27,6 +27,7 @@
 #include "Jens/Quality.h"
 #include <algorithm>
 vector<unsigned int> badPointsVector;
+vector<Point3D> octpoints;
 
 namespace Clobscode
 {
@@ -177,12 +178,12 @@ namespace Clobscode
    		removeOnSurface();
 		
         //new
-        
+        /*
         detectInsideNodes(input);
         linkElementsToNodes();
         shrinkToBoundary(input);
         //Quality (JENS)
-        
+        */
         //end new
         
         //old
@@ -210,77 +211,26 @@ namespace Clobscode
 		*/
         //end old
 
+        detectInsideNodes(input);
+        linkElementsToNodes();
+		shrinkToBoundary(input);
+
+        elementsJENS();
+        applySurfacePatterns(input);
+        removeOnSurface();        
+    
+        if (rotated) {
+            for (unsigned int i=0; i<points.size(); i++) {
+                gt.applyInverse(points[i].getPoint());
+            }
+        } 
+        
+
         //the almighty output mesh
         FEMesh mesh;
         
 		//save the data of the mesh in its final state
 		saveOutputMesh(mesh);
-
-        vector<Element*> octelements;
-        std::cout << "Using Element vector" << "\n";
-        for(auto i: octants) {
-            if (i.isInside()) { continue;}
-            for( auto j: i.getSubElements()) {
-                if (j.size() == 8) {
-                    vector<int> unsignedToint(std::begin(j), std::end(j));
-                    octelements.push_back(new Hexahedron(unsignedToint)); 
-                }
-                else if(j.size() == 6) {
-                    vector<int> unsignedToint(std::begin(j), std::end(j));
-                    octelements.push_back(new Prism(unsignedToint)); 
-                }
-                else if(j.size() == 5) {
-                    vector<int> unsignedToint(std::begin(j), std::end(j));
-                    octelements.push_back(new Pyramid(unsignedToint)); 
-                }
-                else if(j.size() == 4) {
-                    vector<int> unsignedToint(std::begin(j), std::end(j));
-                    octelements.push_back(new Tetrahedron(unsignedToint)); 
-                }
-
-                //for( auto k: j) {std::cout << k << ' ';}
-            }
-            //std::cout << "\n";
-        }
-
-        vector<Point3D> octpoints;
-        for(auto i: points) {
-            octpoints.push_back(
-                i.getPoint()
-            );
-        }
-
-        Quality quality;
-        /*
-        quality.execute_allJENS(octpoints, octelements);
-        vector<Element *> negativeElements = quality.allJENS_sharp(octpoints, octelements, 0);
-        std::cout << "Negative recheck: " << negativeElements.size() << "\n";
-        if(negativeElements.size() > 0) {
-            vector<double> samplejens = negativeElements[0]->getJENS(octpoints);
-            std::cout << "Sample negative JENS: ";
-            for(auto i: samplejens) {
-                std::cout << i << " ";
-            }
-            std::cout << "\n";
-        }
-        */
-
-        badPointsVector = quality.allJENS_sharp_points(octpoints, octelements, 0);
-        list<unsigned int> badPointsList;
-        std::copy(badPointsVector.begin(), badPointsVector.end(), std::back_inserter(badPointsList));
-
-        std::cout << "Negative recheck: " << badPointsList.size() << "\n";
-
-        badPointsList.sort();
-        badPointsList.unique();
-        badPointsVector.clear();
-        badPointsVector = { std::make_move_iterator(std::begin(badPointsList)), 
-                         std::make_move_iterator(std::end(badPointsList)) };
-        
-        std::cout << "Negative after removing dups: " << badPointsVector.size() << "\n";
-
-        std::cout << "Total elements including inside oct: " << octants.size() << "\n";
-        std::cout << "Size octelements vector: " << octelements.size() << "\n";
 
         //Write element-octant info the file
         Services::addOctElemntInfo(name,octants,removedoct,octmeshidx);
@@ -1499,7 +1449,7 @@ namespace Clobscode
         SurfaceTemplatesVisitor stv;
         stv.setPoints(points);
         stv.setInput(input);
-
+        int passescounter = 0;
 		for (unsigned int i=0; i<octants.size(); i++) {
 			
             
@@ -1513,16 +1463,20 @@ namespace Clobscode
             
 			if (octants[i].isSurface()) {
                 //new
+                
+                bool skip = true;
                 for( auto j: octants[i].getSubElements()) {
                     for( auto k: j) {
-                        if ( std::find(badPointsVector.begin(), badPointsVector.end(), k) != badPointsVector.end() ) {
-                            cout << "TEST SUCCESFULL\n";
+                        if ( !octpoints[k].qualityTol ) {
+                            passescounter++;
+                            skip = false;
+                            break;
                         }
                        
                     }
                 }
-
-
+                if(skip) { continue;}
+                
 
                 //end new
                 stv.setNewPoints(tmppts);
@@ -1536,6 +1490,7 @@ namespace Clobscode
 			}
 		}
 		
+        std::cout << "Passes counter: " << passescounter << "\n";
 		//add new nodes to the vector meshPoints.
 		if (!tmppts.empty()) {
 			unsigned int npts = points.size()+tmppts.size();
@@ -1823,5 +1778,72 @@ namespace Clobscode
             string tmp_name = "inregsurf";
             Services::WriteVTK(tmp_name,toref);
         }*/
+    }
+
+    void Mesher::elementsJENS() {
+        vector<Element*> octelements;
+        for(auto i: octants) {
+            if (i.isInside()) { continue;}
+            for( auto j: i.getSubElements()) {
+                if (j.size() == 8) {
+                    vector<int> unsignedToint(std::begin(j), std::end(j));
+                    octelements.push_back(new Hexahedron(unsignedToint)); 
+                }
+                else if(j.size() == 6) {
+                    vector<int> unsignedToint(std::begin(j), std::end(j));
+                    octelements.push_back(new Prism(unsignedToint)); 
+                }
+                else if(j.size() == 5) {
+                    vector<int> unsignedToint(std::begin(j), std::end(j));
+                    octelements.push_back(new Pyramid(unsignedToint)); 
+                }
+                else if(j.size() == 4) {
+                    vector<int> unsignedToint(std::begin(j), std::end(j));
+                    octelements.push_back(new Tetrahedron(unsignedToint)); 
+                }
+
+                //for( auto k: j) {std::cout << k << ' ';}
+            }
+            //std::cout << "\n";
+        }
+
+        //vector<Point3D> octpoints;
+        for(auto i: points) {
+            octpoints.push_back(
+                i.getPoint()
+            );
+        }
+
+        Quality quality;
+        /*
+        quality.execute_allJENS(octpoints, octelements);
+        vector<Element *> negativeElements = quality.allJENS_sharp(octpoints, octelements, 0);
+        std::cout << "Negative recheck: " << negativeElements.size() << "\n";
+        if(negativeElements.size() > 0) {
+            vector<double> samplejens = negativeElements[0]->getJENS(octpoints);
+            std::cout << "Sample negative JENS: ";
+            for(auto i: samplejens) {
+                std::cout << i << " ";
+            }
+            std::cout << "\n";
+        }
+        */
+
+        badPointsVector = quality.allJENS_sharp_points(octpoints, octelements, 0);
+        list<unsigned int> badPointsList;
+        std::copy(badPointsVector.begin(), badPointsVector.end(), std::back_inserter(badPointsList));
+
+        //std::cout << "Negative recheck: " << badPointsList.size() << "\n";
+
+        badPointsList.sort();
+        badPointsList.unique();
+        badPointsVector.clear();
+        badPointsVector = { std::make_move_iterator(std::begin(badPointsList)), 
+                         std::make_move_iterator(std::end(badPointsList)) };
+        
+        //std::cout << "Negative after removing dups: " << badPointsVector.size() << "\n";
+
+        //std::cout << "Total elements including inside oct: " << octants.size() << "\n";
+        //std::cout << "Size octelements vector: " << octelements.size() << "\n";        
     }
 }

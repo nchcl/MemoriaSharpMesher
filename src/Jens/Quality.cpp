@@ -530,12 +530,14 @@ vector<unsigned int> Quality::allJENS_sharp_points(vector<Point3D> &p, vector<El
 
         for (unsigned int j=0; j<jens.size(); j++) {
             if(jens[j] < tol) {
+                p[epts[j]].qualityTol = false;
+
                 negativecounter++;
                 negativePoints.push_back(epts[j]);
             }
         }
 
     }
-    std::cout << "Negative points: " << negativecounter << "\n";
+    std::cout << "Points length: " << p.size() << "\n";
     return negativePoints;
 }
